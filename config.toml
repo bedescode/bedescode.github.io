@@ -1,5 +1,5 @@
 publishdir = "docs"
-baseURL = "bedescode.github.io"
+baseURL = "/"
 languageCode = "en-us"
 title = "Official developer site of Bedes"
 
