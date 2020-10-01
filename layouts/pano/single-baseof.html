@@ -23,39 +23,9 @@
     <script src="../../js/rAF.js"></script>
     <script src="../../js/marzipano.js"></script>
 
-    
-<script>
-'use strict';
-
-
-var viewer = new Marzipano.Viewer(document.getElementById('pano'));
-
-
-var source = Marzipano.ImageUrlSource.fromString(
-  "\/\/www.marzipano.net\/media\/equirect\/angra.jpg"
-);
-
-
-var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
-
-
-var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100*Math.PI/180);
-var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
-
-
-var scene = viewer.createScene({
-  source: source,
-  geometry: geometry,
-  view: view,
-  pinFirstLevel: true
-});
-
-
-scene.switchTo();
-
-</script>
-
-
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
 </body>
 
 </html>
