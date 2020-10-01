@@ -1,0 +1,7 @@
+publishdir = "docs"
+baseURL = "bedescode.github.io"
+languageCode = "en-us"
+title = "Official developer site of Bedes"
+
+[author]
+  name = "Bede's Grammar School"
