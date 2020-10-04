@@ -1,9 +1,16 @@
+{{define "title"}}
+
+<title> {{.Title}} </title>
+<meta name="description" content="{{ .Params.description }}" />
+
+{{end}}
+
 {{define "main"}}
 
 <div id="media" style="background-color: #444; 
 position: relative;
-width: {{ .Params.media.width }}; 
-height: {{ .Params.media.height }}">
+width: {{ .Params.media.width }}px; 
+height: {{ .Params.media.height }}px">
   <iframe width=100% height=100% src="{{.Params.media.url}}"></iframe>
 </div>
 
@@ -37,10 +44,13 @@ height: {{ .Params.media.height }}">
   scene.switchTo();
 
   // Get the hotspot container for scene.
+  {{ if isset .Params "media" }}
   var container = scene.hotspotContainer();
-
+  {{ $k := (float  .Params.media.pitch)}}
   container.createHotspot(document.getElementById('media'), { yaw: {{ .Params.media.yaw }}, pitch: {{ .Params.media.pitch }} },
-    { perspective: { radius: 1640, extraTransforms: "rotateX(0deg)" } });
+    { perspective: { radius: {{ .Params.media.width }}/{{ .Params.media.fov }}, 
+     extraTransforms: "rotateX( {{ mul -1 $k }}rad)" }});
+  {{end}}
 
 </script>
 
