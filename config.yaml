@@ -3,3 +3,5 @@ baseurl: /
 title: Official developer site of Bedes
 author:
   name: Bede's Grammar School
+params:
+    debug: true
