@@ -24,36 +24,49 @@
     <script src="../../js/marzipano.js"></script>
 
     
+
+<div id="media" style="background-color: #444; position: relative">
+  <iframe width: 1024px height: 720px src="https://drive.google.com/file/d/1652xs7fYeYp6yriKzMN6B5Cqp7mKbDAx/preview"></iframe>
+</div>
+
 <script>
-'use strict';
+  'use strict';
 
+  
+  var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
-var viewer = new Marzipano.Viewer(document.getElementById('pano'));
+  
+  var source = Marzipano.ImageUrlSource.fromString(
+    "\/\/u.cubeupload.com\/acanalis\/panoramicaminecraft.jpg"
+  );
 
+  
+  var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
 
-var source = Marzipano.ImageUrlSource.fromString(
-  "\/\/u.cubeupload.com\/acanalis\/panoramicaminecraft.jpg"
-);
+  
+  var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
+  var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
 
+  
+  var scene = viewer.createScene({
+    source: source,
+    geometry: geometry,
+    view: view,
+    pinFirstLevel: true
+  });
 
-var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
+  
+  scene.switchTo();
 
+  
+  var container = scene.hotspotContainer();
 
-var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100*Math.PI/180);
-var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
-
-
-var scene = viewer.createScene({
-  source: source,
-  geometry: geometry,
-  view: view,
-  pinFirstLevel: true
-});
-
-
-scene.switchTo();
+  container.createHotspot(document.getElementById('media'), { yaw:  0 , pitch:  0  },
+    { perspective: { radius: 1640, extraTransforms: "rotateX(0deg)" } });
 
 </script>
+
+
 
 
 </body>

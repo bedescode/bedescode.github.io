@@ -1,33 +1,49 @@
 {{define "main"}}
+
+<div id="media" style="background-color: #444; 
+position: relative;
+width: {{ .Params.media.width }}; 
+height: {{ .Params.media.height }}">
+  <iframe width=100% height=100% src="{{.Params.media.url}}"></iframe>
+</div>
+
 <script>
-'use strict';
+  'use strict';
 
-// Create viewer.
-var viewer = new Marzipano.Viewer(document.getElementById('pano'));
+  // Create viewer.
+  var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
-// Create source.
-var source = Marzipano.ImageUrlSource.fromString(
-  "{{ .Params.Panourl }}"
-);
+  // Create source.
+  var source = Marzipano.ImageUrlSource.fromString(
+    "{{ .Params.panourl }}"
+  );
 
-// Create geometry.
-var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
+  // Create geometry.
+  var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
 
-// Create view.
-var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100*Math.PI/180);
-var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
+  // Create view.
+  var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
+  var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
 
-// Create scene.
-var scene = viewer.createScene({
-  source: source,
-  geometry: geometry,
-  view: view,
-  pinFirstLevel: true
-});
+  // Create scene.
+  var scene = viewer.createScene({
+    source: source,
+    geometry: geometry,
+    view: view,
+    pinFirstLevel: true
+  });
 
-// Display scene.
-scene.switchTo();
+  // Display scene.
+  scene.switchTo();
+
+  // Get the hotspot container for scene.
+  var container = scene.hotspotContainer();
+
+  container.createHotspot(document.getElementById('media'), { yaw: {{ .Params.media.yaw }}, pitch: {{ .Params.media.pitch }} },
+    { perspective: { radius: 1640, extraTransforms: "rotateX(0deg)" } });
 
 </script>
+
+
 
 {{end}}
