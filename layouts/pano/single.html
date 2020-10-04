@@ -8,6 +8,7 @@
 {{define "main"}}
 
 <div  style="position: absolute;"><p id="debug" style="background-color: white;"></p></div>
+<div id="debugpoint" style="background-color: yellow; width: 50px; height: 50px; position:relative"></div>
 
 <div id="media" style="background-color: #444; position: relative; width: {{ .Params.media.width }}px; height: {{ .Params.media.height }}px">
   <iframe width=100% height=100% src="{{.Params.media.url}}"></iframe>
@@ -29,7 +30,7 @@
 
   // Create view.
   var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
-  var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
+  var view = new Marzipano.RectilinearView({ yaw: {{ .Params.media.yaw }} }, limiter);
 
   // Create scene.
   var scene = viewer.createScene({
@@ -45,21 +46,23 @@
   // Get the hotspot container for scene.
   {{ if isset .Params "media" }}
   var container = scene.hotspotContainer();
-  {{ $k := (float  .Params.media.pitch)}}
   container.createHotspot(document.getElementById('media'), { yaw: {{ .Params.media.yaw }}, pitch: {{ .Params.media.pitch }} },
     { perspective: { radius: {{ .Params.media.height }}/{{ .Params.media.fov }}, 
-     extraTransforms: "rotateX( {{ mul -1 $k }}rad) rotateY({{.Params.media.turn}}rad)" }});
+     extraTransforms: "translate({{.Params.media.translate.xc}}px, {{ mul -1 (float .Params.media.translate.yc)}}px"}});
   {{end}}
   
 {{if .Site.Params.debug}}
-//setInterval(displayDate,40);
+var h = container.createHotspot(document.getElementById('debugpoint'), { yaw: 0, pitch: 0 },
+    { perspective: { radius: 2000, 
+     extraTransforms: "",}});
 
-function displayDate(event) {
- var c = viewer.view().screenToCoordinates({x:event.screenX,y:event.screenY});
-document.getElementById("debug").innerHTML = "yaw:" + c.yaw.toFixed(2) + " - pitch:" + c.pitch.toFixed(2) ;}
+setInterval(displayDate,20);
 
-document.getElementById("pano").addEventListener("click",displayDate)
-
+function displayDate() {
+  var num = viewer.view();
+  document.getElementById("debug").innerHTML = "yaw:" + num.yaw().toFixed(3) + " - pitch:" + num.pitch().toFixed(3) ;
+  h.setPosition({yaw:num.yaw(), pitch: num.pitch()});
+}
 {{end}}
 </script>
 

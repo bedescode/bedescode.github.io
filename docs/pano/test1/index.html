@@ -30,6 +30,7 @@
     
 
 <div  style="position: absolute;"><p id="debug" style="background-color: white;"></p></div>
+<div id="debugpoint" style="background-color: yellow; width: 50px; height: 50px; position:relative"></div>
 
 <div id="media" style="background-color: #444; position: relative; width: px; height: px">
   <iframe width=100% height=100% src=""></iframe>
@@ -51,7 +52,7 @@
 
   
   var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
-  var view = new Marzipano.RectilinearView({ yaw: Math.PI }, limiter);
+  var view = new Marzipano.RectilinearView({ yaw:  null  }, limiter);
 
   
   var scene = viewer.createScene({
@@ -68,14 +69,17 @@
   
   
 
+var h = container.createHotspot(document.getElementById('debugpoint'), { yaw: 0, pitch: 0 },
+    { perspective: { radius: 2000, 
+     extraTransforms: "",}});
 
+setInterval(displayDate,20);
 
-function displayDate(event) {
- var c = viewer.view().screenToCoordinates({x:event.screenX,y:event.screenY});
-document.getElementById("debug").innerHTML = "yaw:" + c.yaw.toFixed(2) + " - pitch:" + c.pitch.toFixed(2) ;}
-
-document.getElementById("pano").addEventListener("click",displayDate)
-
+function displayDate() {
+  var num = viewer.view();
+  document.getElementById("debug").innerHTML = "yaw:" + num.yaw().toFloat(2) + " - pitch:" + num.pitch().toFloat(2) ;
+  h.setPosition({yaw:num.yaw(), pitch: num.pitch()});
+}
 
 </script>
 
