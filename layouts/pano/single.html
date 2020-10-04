@@ -7,10 +7,7 @@
 
 {{define "main"}}
 
-<div id="media" style="background-color: #444; 
-position: relative;
-width: {{ .Params.media.width }}px; 
-height: {{ .Params.media.height }}px">
+<div id="media" style="background-color: #444; position: relative; width: {{ .Params.media.width }}px; height: {{ .Params.media.height }}px">
   <iframe width=100% height=100% src="{{.Params.media.url}}"></iframe>
 </div>
 
@@ -49,7 +46,7 @@ height: {{ .Params.media.height }}px">
   {{ $k := (float  .Params.media.pitch)}}
   container.createHotspot(document.getElementById('media'), { yaw: {{ .Params.media.yaw }}, pitch: {{ .Params.media.pitch }} },
     { perspective: { radius: {{ .Params.media.width }}/{{ .Params.media.fov }}, 
-     extraTransforms: "rotateX( {{ mul -1 $k }}rad)" }});
+     extraTransforms: "rotateX( {{ mul -1 $k }}rad) rotateY({{.Params.media.turn}}rad)" }});
   {{end}}
 
 </script>
