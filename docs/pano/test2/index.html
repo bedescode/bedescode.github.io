@@ -78,11 +78,11 @@ var h = container.createHotspot(document.getElementById('debugpoint'), { yaw: 0,
     { perspective: { radius: 2000, 
      extraTransforms: "",}});
 
-setInterval(displayDate,20);
+setInterval(displayDate,30);
 
 function displayDate() {
   var num = viewer.view();
-  document.getElementById("debug").innerHTML = "yaw:" + num.yaw().toFloat(2) + " - pitch:" + num.pitch().toFloat(2) ;
+  document.getElementById("debug").innerHTML = "yaw:" + num.yaw().toFixed(3) + " - pitch:" + num.pitch().toFixed(3) ;
   h.setPosition({yaw:num.yaw(), pitch: num.pitch()});
 }
 
