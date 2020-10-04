@@ -1,18 +1,13 @@
 ---
-title: Sample panorama
-date: 2020-09-30
-panourl: //u.cubeupload.com/acanalis/panoramicaminecraft.jpg
-description: "I'm a panorama!"
+title: I'm a pano title!
+description: "I'm a description!"
+pano_id: panotest2
 media: 
      url: https://drive.google.com/file/d/1652xs7fYeYp6yriKzMN6B5Cqp7mKbDAx/preview
-     fov: 0.5
-     width: 1024
-     height: 720 
+     screensize: 0.75 # for screensize, 0.5 is small, 0.75 is medium, 1.2 is large
      yaw: 1.54
      pitch: 0
-     translate:
-          xc : 1000
-          yc : 175
-
+     move_x: 250 #pixels
+     move_y: 250  #pixels
 ---
 

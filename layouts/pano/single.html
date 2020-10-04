@@ -7,10 +7,13 @@
 
 {{define "main"}}
 
+{{ $width := default $.Site.Params.defaultwidth .Params.media.width }}
+{{ $height := default $.Site.Params.defaultheight .Params.media.height }}
+
 <div  style="position: absolute;"><p id="debug" style="background-color: white;"></p></div>
 <div id="debugpoint" style="background-color: yellow; width: 50px; height: 50px; position:relative"></div>
 
-<div id="media" style="background-color: #444; position: relative; width: {{ .Params.media.width }}px; height: {{ .Params.media.height }}px">
+<div id="media" style="background-color: #444; position: relative; width: {{ $width }}px; height: {{ $height }}px">
   <iframe width=100% height=100% src="{{.Params.media.url}}"></iframe>
 </div>
 
@@ -22,7 +25,7 @@
 
   // Create source.
   var source = Marzipano.ImageUrlSource.fromString(
-    "{{ .Params.panourl }}"
+    "//u.cubeupload.com/acanalis/{{.Params.pano_id}}.jpg"
   );
 
   // Create geometry.
@@ -47,8 +50,8 @@
   {{ if isset .Params "media" }}
   var container = scene.hotspotContainer();
   container.createHotspot(document.getElementById('media'), { yaw: {{ .Params.media.yaw }}, pitch: {{ .Params.media.pitch }} },
-    { perspective: { radius: {{ .Params.media.height }}/{{ .Params.media.fov }}, 
-     extraTransforms: "translate({{.Params.media.translate.xc}}px, {{ mul -1 (float .Params.media.translate.yc)}}px"}});
+    { perspective: { radius: {{ $height }}/{{ .Params.media.screensize }}, 
+     extraTransforms: "translate({{.Params.media.move_x}}px, {{ mul -1 (float .Params.media.move_y)}}px"}});
   {{end}}
   
 {{if .Site.Params.debug}}

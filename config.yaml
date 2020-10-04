@@ -5,3 +5,5 @@ author:
   name: Bede's Grammar School
 params:
     debug: true
+    defaultheight: 480
+    defaultwidth: 720

@@ -4,8 +4,8 @@
 <head>
     
 
-<title> Sample panorama </title>
-<meta name="description" content="I&#39;m a panorama!" />
+<title> I&#39;m a pano title! </title>
+<meta name="description" content="I&#39;m a description!" />
 
 
     <meta name="viewport"
@@ -29,10 +29,13 @@
 
     
 
+
+
+
 <div  style="position: absolute;"><p id="debug" style="background-color: white;"></p></div>
 <div id="debugpoint" style="background-color: yellow; width: 50px; height: 50px; position:relative"></div>
 
-<div id="media" style="background-color: #444; position: relative; width: 1024px; height: 720px">
+<div id="media" style="background-color: #444; position: relative; width: 720px; height: 480px">
   <iframe width=100% height=100% src="https://drive.google.com/file/d/1652xs7fYeYp6yriKzMN6B5Cqp7mKbDAx/preview"></iframe>
 </div>
 
@@ -44,7 +47,7 @@
 
   
   var source = Marzipano.ImageUrlSource.fromString(
-    "\/\/u.cubeupload.com\/acanalis\/panoramicaminecraft.jpg"
+    "//u.cubeupload.com/acanalis/panotest2.jpg"
   );
 
   
@@ -69,8 +72,8 @@
   
   var container = scene.hotspotContainer();
   container.createHotspot(document.getElementById('media'), { yaw:  1.54 , pitch:  0  },
-    { perspective: { radius:  720 / 0.5 , 
-     extraTransforms: "translate(1000px, -175px"}});
+    { perspective: { radius:  480 / 0.75 , 
+     extraTransforms: "translate(250px, -250px"}});
   
   
 
