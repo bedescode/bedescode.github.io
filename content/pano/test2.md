@@ -1,5 +1,5 @@
-+++
-title = "Sample panorama"
-date = '2020-09-30'
-panourl = '//u.cubeupload.com/acanalis/panoramicaminecraft.jpg'
-+++
+---
+title: Sample panorama
+date: 2020-09-30
+panourl: //u.cubeupload.com/acanalis/panoramicaminecraft.jpg
+---
