@@ -47,16 +47,18 @@
   var container = scene.hotspotContainer();
   {{ $k := (float  .Params.media.pitch)}}
   container.createHotspot(document.getElementById('media'), { yaw: {{ .Params.media.yaw }}, pitch: {{ .Params.media.pitch }} },
-    { perspective: { radius: {{ .Params.media.width }}/{{ .Params.media.fov }}, 
+    { perspective: { radius: {{ .Params.media.height }}/{{ .Params.media.fov }}, 
      extraTransforms: "rotateX( {{ mul -1 $k }}rad) rotateY({{.Params.media.turn}}rad)" }});
   {{end}}
   
 {{if .Site.Params.debug}}
-setInterval(displayDate,40);
+//setInterval(displayDate,40);
 
-function displayDate() {
- var num = viewer.view();
-document.getElementById("debug").innerHTML = "yaw:" + num.yaw() + " - pitch:" + num.pitch() ;}
+function displayDate(event) {
+ var c = viewer.view().screenToCoordinates({x:event.screenX,y:event.screenY});
+document.getElementById("debug").innerHTML = "yaw:" + c.yaw.toFixed(2) + " - pitch:" + c.pitch.toFixed(2) ;}
+
+document.getElementById("pano").addEventListener("click",displayDate)
 
 {{end}}
 </script>
