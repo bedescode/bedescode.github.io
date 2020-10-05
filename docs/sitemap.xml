@@ -3,15 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
     <loc>/pano/test1/</loc>
+  </url>
+  
+  <url>
+    <loc>/pano/test2/</loc>
   </url>
   
   <url>
@@ -19,7 +15,11 @@
   </url>
   
   <url>
-    <loc>/pano/test2/</loc>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
   </url>
   
   <url>

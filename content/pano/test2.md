@@ -1,5 +1,5 @@
 ---
-title: I'm a pano with video example!
+title: 02 I'm a pano with video example!
 description: "I'm a description!"
 pano_id: panotest2
 media: 

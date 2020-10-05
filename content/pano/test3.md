@@ -1,5 +1,5 @@
 ---
-title: I'm a pano with image example!
+title: 03 I'm a pano with image example!
 description: "I'm a description!"
 pano_id: pano01
 media: 
