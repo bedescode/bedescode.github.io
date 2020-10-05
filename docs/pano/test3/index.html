@@ -4,8 +4,8 @@
 <head>
     
 
-<title> I&#39;m a lonely pano! </title>
-<meta name="description" content="So lonely" />
+<title> I&#39;m a pano with image example! </title>
+<meta name="description" content="I&#39;m a description!" />
 
 
     <meta name="viewport"
@@ -35,6 +35,10 @@
 <div  style="position: absolute;"><p id="debug" style="background-color: white; font-size:x-large"></p></div>
 
 
+<div id="media" style="background-color: #444; position: relative; width: 720px; height: 480px">
+  <iframe width=100% height=100% src="https://drive.google.com/file/d/1poDaP5TTPQJw_4xYy3S7qqI4cngL9ouY/preview"></iframe>
+</div>
+
 
 
 <div id="debugpoint" style="background-color: yellow; width: 50px; height: 50px; position:relative"></div>
@@ -48,7 +52,7 @@
 
   
   var source = Marzipano.ImageUrlSource.fromString(
-    "//u.cubeupload.com/acanalis/panotest2.jpg"
+    "//u.cubeupload.com/acanalis/panotest.jpg"
   );
 
   
@@ -56,7 +60,7 @@
 
   
   var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
-  var view = new Marzipano.RectilinearView({ yaw:  null  }, limiter);
+  var view = new Marzipano.RectilinearView({ yaw:  1.54  }, limiter);
 
   
   var scene = viewer.createScene({
@@ -72,6 +76,10 @@
   
   var container = scene.hotspotContainer();
 
+  
+  container.createHotspot(document.getElementById('media'), { yaw:  1.54 , pitch:  0  },
+    { perspective: { radius:  480 / 0.75 , 
+     extraTransforms: ""}});
   
   
 

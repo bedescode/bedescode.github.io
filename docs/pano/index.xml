@@ -4,19 +4,27 @@
     <title>Panoramic on Official developer site of Bedes</title>
     <link>/pano/</link>
     <description>Recent content in Panoramic on Official developer site of Bedes</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="/pano/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/pano/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sample panorama</title>
+      <title>I&#39;m a lonely pano!</title>
       <link>/pano/test1/</link>
-      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pano/test1/</guid>
-      <description>This is test1.</description>
+      <description></description>
     </item>
     
     <item>
-      <title>I&#39;m a pano title!</title>
+      <title>I&#39;m a pano with image example!</title>
+      <link>/pano/test3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pano/test3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I&#39;m a pano with video example!</title>
       <link>/pano/test2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

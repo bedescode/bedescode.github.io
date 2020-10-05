@@ -1,10 +1,8 @@
 ---
-title: Sample panorama
-date: 2020-09-30
-panourl: //www.marzipano.net/media/equirect/angra.jpg
+title: I'm a lonely pano!
+description: So lonely
+pano_id: panotest2
 ---
-
-This is test1.
 
 
 
