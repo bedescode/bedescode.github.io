@@ -1,37 +1,57 @@
-{{define "title"}}
-<title> {{.Title}} </title>
-<meta name="description" content="{{ .Params.description }}" />
-{{end}}
+<!DOCTYPE html>
+<html>
 
-{{define "main"}}
+<head>
+    
+<title> 01 I&#39;m a lonely pano! </title>
+<meta name="description" content="" />
+
+    <meta name="viewport"
+        content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style>
+        @-ms-viewport {
+            width: device-width;
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <div id="pano"></div>
+
+    <script src="../../js/es5-shim.min.js"></script>
+    <script src="../../js/eventShim.js"></script>
+    <script src="../../js/rAF.js"></script>
+    <script src="../../js/marzipano.js"></script>
+
+    
 
 
 
 <div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
      <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/1poDaP5TTPQJw_4xYy3S7qqI4cngL9ouY/preview"></iframe>
-     <div id="btn-group">  {{if ge (len (default slice .Params.multimedia)) 2}}
-     {{range .Params.multimedia}}<button data-student="{{.student}}" data-src="{{.fileID}}">{{.student}}</button>
-     {{end}}{{end}}
+     <div id="btn-group">  
      </div>
 </div>
 
 <script>
      'use strict';
  
-     // Create viewer.
+     
      var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
-     // Create source.
-     var source = Marzipano.ImageUrlSource.fromString("//u.cubeupload.com/acanalis/{{.Params.panoID}}.jpg");
+     
+     var source = Marzipano.ImageUrlSource.fromString("//u.cubeupload.com/acanalis/panotest1.jpg");
 
-     // Create geometry.
+     
      var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
 
-     // Create view.
+     
      var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
      var view = new Marzipano.RectilinearView({}, limiter);
 
-     // Create scene.
+     
      var scene = viewer.createScene({
           source: source,
           geometry: geometry,
@@ -39,17 +59,17 @@
           pinFirstLevel: true
      });
 
-     // Display scene.
+     
      scene.switchTo();
 
-     // Get the hotspot container for scene.
+     
      var container = scene.hotspotContainer();
 
-     // Put up the screen
+     
      var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0,pitch:0},
-     {perspective: {radius: {{ .Params.height }}/{{ .Params.screensize }}, extraTransforms: "",}});
+     {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
 
-     //Buttons
+     
      const btnGroup = document.getElementById('btn-group');
      function updateSRC(event) {
           const isButton = event.target.nodeName === 'BUTTON';
@@ -59,8 +79,8 @@
      }
      btnGroup.addEventListener('click',updateSRC);
      
-     //Debug
-     {{if .Site.Params.debug }} 
+     
+      
      var dbp = document.createElement("div")
      dbp.style = "background-color: yellow; width: 50px; height: 50px; position: relative;"
      var dbhotspot = container.createHotspot(dbp, { yaw: 0, pitch: 0 },
@@ -74,8 +94,11 @@
           dbtext.innerHTML = "yaw:" + num.yaw().toFixed(2) + " - pitch:" + num.pitch().toFixed(2) ;
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
-     {{end}}
+     
 </script>
 
 
-{{end}}
+
+</body>
+
+</html>

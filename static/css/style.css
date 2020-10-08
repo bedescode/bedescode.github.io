@@ -29,8 +29,8 @@ html, body {
 }
 
 #btn-group {
-  position: absolute;
-  top: 30px;
+  position: relative;
+  top: 60px;
   width:100%;
   z-index: 10;
 }
