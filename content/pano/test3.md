@@ -1,7 +1,7 @@
 ---
 title: 03 I'm a pano with image example!
 description: "I'm a description!"
-pano_id: pano01
+pano_id: panotest1
 media: 
      url: https://drive.google.com/file/d/1poDaP5TTPQJw_4xYy3S7qqI4cngL9ouY/preview
      screensize: 0.5 # for screensize, 0.5 is small, 0.75 is medium, 1.2 is large
