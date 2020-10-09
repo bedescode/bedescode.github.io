@@ -19,6 +19,12 @@ html, body {
   overflow: hidden;
 }
 
+#student{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  color: white;
+}
+
 #pano {
   position: absolute;
   top: 0;
@@ -29,13 +35,18 @@ html, body {
 }
 
 #btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   position: relative;
-  top: 60px;
+  top: 0px;
   width:100%;
   z-index: 10;
 }
 
 #btn-group button {
-  width: 150px;
+  margin: 15px;
+  width: 30px;
+  border-radius: 50%;
   height: 30px;
 }

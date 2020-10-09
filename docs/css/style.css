@@ -36,6 +36,7 @@ html, body {
 }
 
 #btn-group button {
-  width: 150px;
+  width: 30px;
+  border-radius: 50%;
   height: 30px;
 }

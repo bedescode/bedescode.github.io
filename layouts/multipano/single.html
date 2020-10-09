@@ -9,8 +9,9 @@
 
 <div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
      <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/{{.Params.feature.fileid}}/preview"></iframe>
+     <p id="student">{{.Params.feature.student}}</p>
      <div id="btn-group">  {{if ge (len (default slice .Params.multimedia)) 2}}
-     {{range .Params.multimedia}}<button data-student="{{.student}}" data-src="{{.fileID}}">{{.student}}</button>
+     {{range .Params.multimedia}}<button data-student="{{.student}}" data-src="{{.fileID}}"></button>
      {{end}}{{end}}
      </div>
 </div>
@@ -55,7 +56,8 @@
           const isButton = event.target.nodeName === 'BUTTON';
           if (!isButton) {return;};
           var newsrc = `https:\/\/drive.google.com\/file\/d\/${event.target.dataset.src}\/preview`;
-          document.getElementById("content").src = newsrc
+          document.getElementById("content").src = newsrc;
+          document.getElementById("student").innerText = event.target.dataset.student;
      }
      btnGroup.addEventListener('click',updateSRC);
      
