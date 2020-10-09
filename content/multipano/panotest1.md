@@ -11,5 +11,9 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureID": ""
+      "featureURL": "",
+      "feature": {
+         "fileID": "",
+         "student": ""
+      }
    }

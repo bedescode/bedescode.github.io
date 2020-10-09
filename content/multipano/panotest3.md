@@ -11,7 +11,11 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureID": "",
+      "featureURL": "",
+      "feature": {
+         "fileID": "1poDaP5TTPQJw_4xYy3S7qqI4cngL9ouY",
+         "student": "Manuel Belgrano"
+      },
       "multimedia": [
          {
             "fileID": "1poDaP5TTPQJw_4xYy3S7qqI4cngL9ouY",

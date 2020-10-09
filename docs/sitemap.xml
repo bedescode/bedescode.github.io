@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/multipano/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/multipano/panotest1/</loc>
   </url>
   
@@ -36,10 +41,6 @@
   
   <url>
     <loc>/</loc>
-  </url>
-  
-  <url>
-    <loc>/multipano/</loc>
   </url>
   
   <url>

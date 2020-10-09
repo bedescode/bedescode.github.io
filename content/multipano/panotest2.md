@@ -11,7 +11,11 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureID": "",
+      "featureURL": "",
+      "feature": {
+         "fileID": "1652xs7fYeYp6yriKzMN6B5Cqp7mKbDAx",
+         "student": "Mariano Moreno"
+      },
       "multimedia": [
          {
             "fileID": "1652xs7fYeYp6yriKzMN6B5Cqp7mKbDAx",
