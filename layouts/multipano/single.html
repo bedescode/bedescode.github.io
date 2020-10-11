@@ -6,7 +6,7 @@
 {{define "main"}}
 
 
-
+{{if ge (len (default slice .Params.multimedia)) 1}}
 <div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
      <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/{{.Params.feature.fileid}}/preview"></iframe>
      <p id="student">{{.Params.feature.student}}</p>
@@ -15,6 +15,7 @@
      {{end}}{{end}}
      </div>
 </div>
+{{end}}
 
 <script>
      'use strict';
@@ -23,7 +24,7 @@
      var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
      // Create source.
-     var source = Marzipano.ImageUrlSource.fromString("//u.cubeupload.com/acanalis/{{.Params.panoID}}.jpg");
+     var source = Marzipano.ImageUrlSource.fromString("{{.Params.panoURL}}");
 
      // Create geometry.
      var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
