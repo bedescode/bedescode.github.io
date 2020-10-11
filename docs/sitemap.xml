@@ -36,7 +36,27 @@
   </url>
   
   <url>
+    <loc>/multipano/art-room/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/class-0/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/class-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/class-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/class-3/</loc>
   </url>
   
   <url>
@@ -44,15 +64,55 @@
   </url>
   
   <url>
+    <loc>/multipano/ict-lab/</loc>
+  </url>
+  
+  <url>
     <loc>/pano/</loc>
   </url>
   
   <url>
-    <loc>/multipano/schoolfront/</loc>
+    <loc>/multipano/preceptory/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/saxon-hall-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/saxon-hall-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/school-front/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/science-lab/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/upf/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/weather-station-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/weather-station-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/weather-station-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/multipano/weather-station-4/</loc>
   </url>
   
 </urlset>

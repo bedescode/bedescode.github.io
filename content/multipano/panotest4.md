@@ -1,5 +1,5 @@
 {
-      "panoID": "panotest4",
+      "panoURL": "panotest4",
       "type": "",
       "folderURL": "https://drive.google.com/drive/u/0/folders/1z9m8Pevk_iNo6XCfsPa5xZtBH4Jzp0uh",
       "title": "04 Multipano example!",

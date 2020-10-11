@@ -69,11 +69,146 @@
     </item>
     
     <item>
-      <title>School front</title>
-      <link>/multipano/schoolfront/</link>
+      <title>Art Room</title>
+      <link>/multipano/art-room/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/multipano/schoolfront/</guid>
+      <guid>/multipano/art-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class 0</title>
+      <link>/multipano/class-0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/class-0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class 1</title>
+      <link>/multipano/class-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/class-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class 2</title>
+      <link>/multipano/class-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/class-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class 3</title>
+      <link>/multipano/class-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/class-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICT Lab</title>
+      <link>/multipano/ict-lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/ict-lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preceptory</title>
+      <link>/multipano/preceptory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/preceptory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saxon Hall 1</title>
+      <link>/multipano/saxon-hall-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/saxon-hall-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saxon Hall 2</title>
+      <link>/multipano/saxon-hall-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/saxon-hall-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School front</title>
+      <link>/multipano/school-front/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/school-front/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science Lab</title>
+      <link>/multipano/science-lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/science-lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UPF</title>
+      <link>/multipano/upf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/upf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather Station 1</title>
+      <link>/multipano/weather-station-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/weather-station-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather Station 2</title>
+      <link>/multipano/weather-station-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/weather-station-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather Station 3</title>
+      <link>/multipano/weather-station-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/weather-station-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weather Station 4</title>
+      <link>/multipano/weather-station-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/weather-station-4/</guid>
       <description></description>
     </item>
     
