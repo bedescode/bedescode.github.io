@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<title> Art Room </title>
+<meta name="description" content="" />
+
+    <meta name="viewport"
+        content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style>
+        @-ms-viewport {
+            width: device-width;
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <div id="pano"></div>
+
+    <script src="../../js/es5-shim.min.js"></script>
+    <script src="../../js/eventShim.js"></script>
+    <script src="../../js/rAF.js"></script>
+    <script src="../../js/marzipano.js"></script>
+
+    
+
+
+
+
+<script>
+     'use strict';
+ 
+     
+     var viewer = new Marzipano.Viewer(document.getElementById('pano'));
+
+     
+     var source = Marzipano.ImageUrlSource.fromString("https:\/\/i.imgur.com\/AjDwNIF.jpg");
+
+     
+     var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
+
+     
+     var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
+     var view = new Marzipano.RectilinearView({}, limiter);
+
+     
+     var scene = viewer.createScene({
+          source: source,
+          geometry: geometry,
+          view: view,
+          pinFirstLevel: true
+     });
+
+     
+     scene.switchTo();
+
+     
+     var container = scene.hotspotContainer();
+
+     
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0,pitch:0},
+     {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
+
+     
+     const btnGroup = document.getElementById('btn-group');
+     function updateSRC(event) {
+          const isButton = event.target.nodeName === 'BUTTON';
+          if (!isButton) {return;};
+          var newsrc = `https:\/\/drive.google.com\/file\/d\/${event.target.dataset.src}\/preview`;
+          document.getElementById("content").src = newsrc;
+          document.getElementById("student").innerText = event.target.dataset.student;
+     }
+     btnGroup.addEventListener('click',updateSRC);
+     
+     
+      
+     var dbp = document.createElement("div")
+     dbp.style = "background-color: yellow; width: 50px; height: 50px; position: relative;"
+     var dbhotspot = container.createHotspot(dbp, { yaw: 0, pitch: 0 },
+     { perspective: { radius: 2000, extraTransforms: "",}});
+     var dbtext = document.createElement("p")
+     dbtext.style = "position: absolute; top: 0; left: 0; background-color: white;  font-size:x-large"
+     document.body.appendChild(dbtext)
+     setInterval(displayPosition,40)
+     function displayPosition() {
+          var num = viewer.view();
+          dbtext.innerHTML = "yaw:" + num.yaw().toFixed(2) + " - pitch:" + num.pitch().toFixed(2) ;
+          dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
+     }
+     
+</script>
+
+
+
+</body>
+
+</html>
