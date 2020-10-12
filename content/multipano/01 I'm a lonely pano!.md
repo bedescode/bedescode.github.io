@@ -1,8 +1,8 @@
 {
-      "panoURL": "",
+      "panoURL": "https://u.cubeupload.com/acanalis/panotest1.jpg",
       "type": "",
       "folderURL": "",
-      "title": "",
+      "title": "01 I'm a lonely pano!",
       "description": "",
       "screensize": 0.75,
       "height": 480,

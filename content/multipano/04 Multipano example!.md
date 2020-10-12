@@ -1,5 +1,5 @@
 {
-      "panoURL": "panotest4",
+      "panoURL": "https://u.cubeupload.com/acanalis/panotest4.jpg",
       "type": "",
       "folderURL": "https://drive.google.com/drive/u/0/folders/1z9m8Pevk_iNo6XCfsPa5xZtBH4Jzp0uh",
       "title": "04 Multipano example!",
@@ -7,7 +7,7 @@
       "screensize": 0.75,
       "height": 480,
       "width": 720,
-      "yaw": 1.54,
+      "yaw": 0,
       "pitch": 0,
       "extratransforms": "",
       "class": "",

@@ -1,7 +1,7 @@
 {
       "panoURL": "https://i.imgur.com/7GkoGcJ.jpg",
       "type": "",
-      "folderURL": "https://drive.google.com/drive/folders/1cm8XSKnRpI-8FuuA4ialmg2qMCHR2zyr?usp=sharing",
+      "folderURL": "https://drive.google.com/drive/folders/1ALKD3B4Z-ZP_A92TCdTKyCDYWhNTyMmv",
       "title": "UPF",
       "description": "",
       "screensize": 0.75,
@@ -13,37 +13,25 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "1rS8j7fxlyIAgnZpebhwe6yCVfeF7l8Wh",
-         "student": "Martina Chiossone - Class Activity 10/02"
+         "fileID": "12yyJ3hvCffRyG_b7GTg9-eyRE5pNHPj5",
+         "student": "Veggie Garden Final"
       },
       "multimedia": [
          {
-            "fileID": "1rS8j7fxlyIAgnZpebhwe6yCVfeF7l8Wh",
-            "student": "Martina Chiossone - Class Activity 10/02"
-         },
-         {
-            "fileID": "1UTjiH5clFU65JW2zJ_diNiRzEQkIWKSc",
-            "student": "Class Activity 08/21 (2 sep"
-         },
-         {
-            "fileID": "1f4HUK8sLhYCmM34Q55zybmztIrqJdDSW",
-            "student": "Class Activity 08/21 (4 sep"
-         },
-         {
-            "fileID": "1GcvLMpqQGKHtqSu3PmQNY6h3smMpdr8U",
-            "student": "Class Activity 08/21 (sep"
-         },
-         {
-            "fileID": "1DqEyUUDL3RxkS-dC74R_Tg5R351aPoIA",
+            "fileID": "12yyJ3hvCffRyG_b7GTg9-eyRE5pNHPj5",
             "student": "Veggie Garden Final"
          },
          {
-            "fileID": "1cvbKnu2G_NtUE4ldq2J2l_gokE3xvLwW",
-            "student": "Class Activity 08/21 (18 sep"
+            "fileID": "1hl29kfXhp8pdZai0DpqZcTCsQELY49Z0",
+            "student": "Class Activity 08/21 (11 sep"
          },
          {
-            "fileID": "1MwwEfaY0RP9mCNxiMJqGzCL6JM3mh2Xd",
-            "student": "Class Activity 08/21 (18 sep"
+            "fileID": "1CbyO_fVtZkGynG8aPjiydhi4_j3vutAp",
+            "student": "Class Activity 07/03 (ago"
+         },
+         {
+            "fileID": "1rnMPL0CEV6J3DH389O9soaSxeJUaC_fk",
+            "student": "Class Activity 08/07  (ago"
          }
       ]
    }

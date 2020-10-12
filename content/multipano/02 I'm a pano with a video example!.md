@@ -1,8 +1,8 @@
 {
-      "panoID": "panotest2",
+      "panoURL": "https://u.cubeupload.com/acanalis/panotest2.jpg",
       "type": "",
-      "folderURL": "1PtaCJqTbaLQW9KVvpAv7kFWMYGHq2dbK",
-      "title": "02 I'm a pano with video example!",
+      "folderURL": "https://drive.google.com/drive/folders/1PtaCJqTbaLQW9KVvpAv7kFWMYGHq2dbK",
+      "title": "02 I'm a pano with a video example!",
       "description": "",
       "screensize": 0.75,
       "height": 480,
