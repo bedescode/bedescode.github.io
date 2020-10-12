@@ -1,7 +1,7 @@
 {
       "panoURL": "https://i.imgur.com/1RkXmJM.jpg",
       "type": "",
-      "folderURL": "",
+      "folderURL": "https://drive.google.com/drive/folders/1TkYG2Npy8RRnlCNNfhmDq4vcq4ELkJm8?usp=sharing",
       "title": "Class 1",
       "description": "",
       "screensize": 0.75,
@@ -13,7 +13,13 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "",
-         "student": ""
-      }
+         "fileID": "1BQl3M6-9M0YwPTGhMOUXZliZ6KR7ArE9YEuSHy1Di1I",
+         "student": "Waiting for:"
+      },
+      "multimedia": [
+         {
+            "fileID": "1BQl3M6-9M0YwPTGhMOUXZliZ6KR7ArE9YEuSHy1Di1I",
+            "student": "Waiting for:"
+         }
+      ]
    }
