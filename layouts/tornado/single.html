@@ -5,12 +5,6 @@
 
 {{define "main"}}
 
-
-<div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px; -webkit-user-drag: none;">
-     <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/{{.Params.feature.fileid}}/preview"></iframe>
-</div>
-
-
 <script>
      'use strict';
  
@@ -44,17 +38,28 @@
      var i;
      for (i in multimedia){
           var m = document.createElement("div");
-          m.style="width:50px; height:50px; background-color: yellow"
+          m.style="width:100px; height:100px; background-color: yellow"
+          var iframe = document.createElement("iframe")
+          iframe.style =  "width:100%; height:100%;"
+          var newsrc = `https:\/\/drive.google.com\/file\/d\/${multimedia[i].fileID}\/preview`
+          iframe.src = newsrc
+          var student = document.createElement("p");
+          student.innerText = multimedia[i].student
+          student.style = `font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                           font-size: large;
+                           color: white;`
+          m.appendChild(iframe)
+          m.append(student)
           let p = 0.4 * (0.5 - i/n) * Math.PI
           let y = i * 2.4
           tornado.createHotspot(m, {yaw:y , pitch: p},{perspective: {radius: 500}})
      }
 
      // Get the hotspot container for scene.
-     var container = scene.hotspotContainer();
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0,pitch:0},
+  
+     /* var screen = tornado.createHotspot(document.getElementById("screen"), {yaw: 0,pitch:-1.4},
      {perspective: {radius: {{ .Params.height }}/{{ .Params.screensize }}, extraTransforms: "",}});
-
+     */
      //Buttons
      /*
      const btnGroup = document.getElementById('btn-group');
@@ -71,7 +76,7 @@
      {{if .Site.Params.debug }} 
      var dbp = document.createElement("div")
      dbp.style = "background-color: yellow; width: 50px; height: 50px; position: relative;"
-     var dbhotspot = container.createHotspot(dbp, { yaw: 0, pitch: 0 },
+     var dbhotspot = tornado.createHotspot(dbp, { yaw: 0, pitch: 0 },
      { perspective: { radius: 2000, extraTransforms: "",}});
      var dbtext = document.createElement("p")
      dbtext.style = "position: absolute; top: 0; left: 0; background-color: white;  font-size:x-large"
