@@ -1,6 +1,6 @@
 ---
 title: Home
-link: /pano
+link: /multipano
 ---
 
 Nothing to see here, go to {{< shortcodelink >}}

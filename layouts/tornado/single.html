@@ -1,0 +1,88 @@
+{{define "title"}}
+<title>Hello from tornado!{{.Title}} </title>
+<meta name="description" content="{{ .Params.description }}" />
+{{end}}
+
+{{define "main"}}
+
+
+<div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
+     <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/{{.Params.feature.fileid}}/preview"></iframe>
+</div>
+
+
+<script>
+     'use strict';
+ 
+     // Create viewer.
+     var viewer = new Marzipano.Viewer(document.getElementById('pano'));
+
+     // Create source.
+     var source = Marzipano.ImageUrlSource.fromString("{{.Params.panoURL}}");
+
+     // Create geometry.
+     var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
+
+     // Create view.
+     var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
+     var view = new Marzipano.RectilinearView({}, limiter);
+
+     // Create scene.
+     var scene = viewer.createScene({
+          source: source,
+          geometry: geometry,
+          view: view,
+          pinFirstLevel: true
+     });
+
+     // Display scene.
+     scene.switchTo();
+
+     // Get the hotspot container for scene.
+     var container = scene.hotspotContainer();
+
+     var multimedia = JSON.parse({{jsonify .Params.multimedia }})
+     var media;
+     for (media of multimedia){
+          var m = document.createElement("div");
+          m.style="width:50px; height:50px; background-color: #444"
+          container.createHotspot(m, {yaw:(0.5-Math.random())*4*Math.PI, pitch: (0.5-Math.random())*2*Math.PI},
+          {perspective: {radius: 500}})
+          console.log(media)
+     }
+
+     // Put up the screen
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0,pitch:0},
+     {perspective: {radius: {{ .Params.height }}/{{ .Params.screensize }}, extraTransforms: "",}});
+
+     //Buttons
+     const btnGroup = document.getElementById('btn-group');
+     function updateSRC(event) {
+          const isButton = event.target.nodeName === 'BUTTON';
+          if (!isButton) {return;};
+          var newsrc = `https:\/\/drive.google.com\/file\/d\/${event.target.dataset.src}\/preview`;
+          document.getElementById("content").src = newsrc;
+          document.getElementById("student").innerText = event.target.dataset.student;
+     }
+     btnGroup.addEventListener('click',updateSRC);
+     
+     //Debug
+     {{if .Site.Params.debug }} 
+     var dbp = document.createElement("div")
+     dbp.style = "background-color: yellow; width: 50px; height: 50px; position: relative;"
+     var dbhotspot = container.createHotspot(dbp, { yaw: 0, pitch: 0 },
+     { perspective: { radius: 2000, extraTransforms: "",}});
+     var dbtext = document.createElement("p")
+     dbtext.style = "position: absolute; top: 0; left: 0; background-color: white;  font-size:x-large"
+     document.body.appendChild(dbtext)
+     setInterval(displayPosition,40)
+     function displayPosition() {
+          var num = viewer.view();
+          dbtext.innerHTML = "yaw:" + num.yaw().toFixed(2) + " - pitch:" + num.pitch().toFixed(2) ;
+          dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
+     }
+     {{end}}
+</script>
+
+
+{{end}}
