@@ -33,20 +33,3 @@ html, body {
   height: 100%;
   visibility: initial;
 }
-
-#btn-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-  top: 0px;
-  width:100%;
-  z-index: 10;
-}
-
-#btn-group button {
-  margin: 15px;
-  width: 30px;
-  border-radius: 50%;
-  height: 30px;
-}

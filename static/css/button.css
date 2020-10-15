@@ -1,0 +1,41 @@
+#btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    width:100%;
+    z-index: 2;
+  }
+
+#btn-group button {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ }
+
+.mc-button {
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+    background: rgb(255, 155, 41);
+    border: 2px solid #000;
+    padding-bottom: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DDD;
+    text-shadow: 2px 2px #000A;
+    box-shadow: inset -2px -4px #00000066, inset 2px 2px #FFF7;
+}
+
+.mc-button:hover {
+    background: rgb(253, 198, 15);
+    text-shadow: 2px 2px #202013CC;
+    color: #FFFFA0;
+}
+.mc-button:active {
+    box-shadow: inset -1px -2px #00000066, inset 1px 1px #FFF7;
+}
