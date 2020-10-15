@@ -20,7 +20,7 @@
     overflow: hidden;
     white-space: nowrap;
     user-select: none;
-    background: rgb(255, 155, 41);
+    background: #0ADBD0;
     border: 2px solid #000;
     padding-bottom: .3em;
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 .mc-button:hover {
-    background: rgb(253, 198, 15);
+    background: #FFE703;
     text-shadow: 2px 2px #202013CC;
     color: #FFFFA0;
 }
