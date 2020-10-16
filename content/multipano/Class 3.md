@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/uE4KGYC.jpg",
+      "panoURL": "https://i.imgur.com/zTjm5jo.jpg",
       "type": "",
       "folderURL": "",
       "title": "Class 3",

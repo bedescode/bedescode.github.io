@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/2ndrj3Z.jpg",
+      "panoURL": "https://i.imgur.com/g3Y9S7t.jpg",
       "type": "",
       "folderURL": "https://drive.google.com/drive/folders/1ux_69eKilLfR-hdyB3SXlLRZm1ngjduL?usp=sharing",
       "title": "Science Lab",

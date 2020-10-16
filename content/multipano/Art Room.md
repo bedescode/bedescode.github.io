@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/AjDwNIF.jpg",
+      "panoURL": "https://i.imgur.com/fhzJ6Th.jpg",
       "type": "tornado",
       "folderURL": "https://drive.google.com/drive/folders/1gabydajeQaqGzGgQwnDOdmrsjqOnyAfK?usp=sharing",
       "title": "Art Room",

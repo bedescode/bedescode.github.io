@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/0omc1fm.jpg",
+      "panoURL": "https://i.imgur.com/omD7WiI.jpg",
       "type": "",
       "folderURL": "",
       "title": "Saxon Hall 2",

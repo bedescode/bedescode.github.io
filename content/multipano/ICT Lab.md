@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/tCGdx92.jpg",
+      "panoURL": "https://i.imgur.com/fSMIITd.jpg",
       "type": "",
       "folderURL": "",
       "title": "ICT Lab",

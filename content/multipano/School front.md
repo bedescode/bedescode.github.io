@@ -1,7 +1,7 @@
 {
-      "panoURL": "https://i.imgur.com/tWc7Drs.jpg",
+      "panoURL": "https://i.imgur.com/mEoKWub.jpg",
       "type": "",
-      "folderURL": "",
+      "folderURL": "https://drive.google.com/drive/u/0/folders/11ucWmaOyfWw_1oWuwQgAumLCo8XaytZY",
       "title": "School front",
       "description": "",
       "screensize": 0.75,
@@ -13,7 +13,13 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "",
-         "student": ""
-      }
+         "fileID": "1lCv7Wp182_6oU63CK0dmHnce3XRtgTBL",
+         "student": "Juana Demicheli Introduction to the Science Fair"
+      },
+      "multimedia": [
+         {
+            "fileID": "1lCv7Wp182_6oU63CK0dmHnce3XRtgTBL",
+            "student": "Juana Demicheli Introduction to the Science Fair"
+         }
+      ]
    }

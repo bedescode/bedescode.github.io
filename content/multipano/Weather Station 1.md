@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/79WrK0Z.jpg",
+      "panoURL": "https://i.imgur.com/FFrg6S6.jpg",
       "type": "",
       "folderURL": "https://drive.google.com/drive/folders/11YEhN9olRqaRwaSeuUHN4KTjR8l8py1r?usp=sharing",
       "title": "Weather Station 1",

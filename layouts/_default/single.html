@@ -1,3 +1,9 @@
+{{define "title"}}
+{{.Title}}
+{{end}}
+
+{{ define "main" }}
+     
 <div>
 <h1>{{ .Title }}</h1>
 <h2>{{.Site.Author.name}}</h2>
@@ -6,3 +12,5 @@
 <main>
 {{ .Content }}
 </main>
+
+{{ end }}

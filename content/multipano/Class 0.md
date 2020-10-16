@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/hnqBhku.jpg",
+      "panoURL": "https://i.imgur.com/GnDNWXB.jpg",
       "type": "",
       "folderURL": "https://drive.google.com/drive/folders/1z9m8Pevk_iNo6XCfsPa5xZtBH4Jzp0uh?usp=sharing",
       "title": "Class 0",

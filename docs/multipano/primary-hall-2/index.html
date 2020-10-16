@@ -3,7 +3,7 @@
 
 <head>
     
-<title> 02 I&#39;m a pano with video example! </title>
+<title> Primary Hall 2 </title>
 <meta name="description" content="" />
 
     <meta name="viewport"
@@ -15,6 +15,7 @@
     </style>
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/button.css">
 </head>
 
 <body>
@@ -29,13 +30,6 @@
 
 
 
-<div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
-     <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/1652xs7fYeYp6yriKzMN6B5Cqp7mKbDAx/preview"></iframe>
-     <p id="student">Mariano Moreno</p>
-     <div id="btn-group">  
-     </div>
-</div>
-
 
 <script>
      'use strict';
@@ -44,7 +38,7 @@
      var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
      
-     var source = Marzipano.ImageUrlSource.fromString("");
+     var source = Marzipano.ImageUrlSource.fromString("https:\/\/i.imgur.com\/28Wez0f.jpg");
 
      
      var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);

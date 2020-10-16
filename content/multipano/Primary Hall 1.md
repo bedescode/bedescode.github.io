@@ -1,8 +1,8 @@
 {
-      "panoURL": "https://i.imgur.com/bZcmc7g.jpg",
+      "panoURL": "https://i.imgur.com/Ut3HcpT.jpg",
       "type": "",
       "folderURL": "",
-      "title": "Preceptory",
+      "title": "Primary Hall 1",
       "description": "",
       "screensize": 0.75,
       "height": 480,

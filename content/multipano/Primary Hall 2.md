@@ -1,8 +1,8 @@
 {
-      "panoURL": "https://u.cubeupload.com/acanalis/panotest1.jpg",
+      "panoURL": "https://i.imgur.com/28Wez0f.jpg",
       "type": "",
       "folderURL": "",
-      "title": "01 I'm a lonely pano!",
+      "title": "Primary Hall 2",
       "description": "",
       "screensize": 0.75,
       "height": 480,

@@ -7,28 +7,10 @@
     <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>01 I&#39;m a lonely pano!</title>
-      <link>/multipano/01-im-a-lonely-pano/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/multipano/01-im-a-lonely-pano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>01 I&#39;m a lonely pano!</title>
       <link>/pano/test1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pano/test1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>02 I&#39;m a pano with a video example!</title>
-      <link>/multipano/02-im-a-pano-with-a-video-example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/multipano/02-im-a-pano-with-a-video-example/</guid>
       <description></description>
     </item>
     
@@ -42,29 +24,11 @@
     </item>
     
     <item>
-      <title>03 I&#39;m a pano with an image example!</title>
-      <link>/multipano/03-im-a-pano-with-an-image-example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/multipano/03-im-a-pano-with-an-image-example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>03 I&#39;m a pano with image example!</title>
       <link>/pano/test3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pano/test3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>04 Multipano example!</title>
-      <link>/multipano/04-multipano-example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/multipano/04-multipano-example/</guid>
       <description></description>
     </item>
     
@@ -137,6 +101,33 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/multipano/preceptory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primary Hall 1</title>
+      <link>/multipano/primary-hall-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/primary-hall-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primary Hall 2</title>
+      <link>/multipano/primary-hall-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/primary-hall-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primary Hall 3</title>
+      <link>/multipano/primary-hall-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/multipano/primary-hall-3/</guid>
       <description></description>
     </item>
     
