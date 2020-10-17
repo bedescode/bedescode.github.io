@@ -13,13 +13,9 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "1BQl3M6-9M0YwPTGhMOUXZliZ6KR7ArE9YEuSHy1Di1I",
-         "student": "Waiting for:"
-      },
-      "multimedia": [
-         {
-            "fileID": "1BQl3M6-9M0YwPTGhMOUXZliZ6KR7ArE9YEuSHy1Di1I",
-            "student": "Waiting for:"
-         }
-      ]
+         "fileID": "",
+         "student": "",
+         "height": 0,
+         "width": 0
+      }
    }

@@ -14,12 +14,16 @@
       "featureURL": "",
       "feature": {
          "fileID": "1lCv7Wp182_6oU63CK0dmHnce3XRtgTBL",
-         "student": "Juana Demicheli Introduction to the Science Fair"
+         "student": "Juana Demicheli Introduction to the Science Fair",
+         "height": 480,
+         "width": 848
       },
       "multimedia": [
          {
             "fileID": "1lCv7Wp182_6oU63CK0dmHnce3XRtgTBL",
-            "student": "Juana Demicheli Introduction to the Science Fair"
+            "student": "Juana Demicheli Introduction to the Science Fair",
+            "height": 480,
+            "width": 848
          }
       ]
    }

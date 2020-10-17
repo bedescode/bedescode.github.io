@@ -14,6 +14,8 @@
       "featureURL": "",
       "feature": {
          "fileID": "",
-         "student": ""
+         "student": "",
+         "height": 0,
+         "width": 0
       }
    }

@@ -14,44 +14,40 @@
       "featureURL": "",
       "feature": {
          "fileID": "1itCDMHhLZtJzsObbVG8JrAJrLgo801-g",
-         "student": "Candela Villalba"
+         "student": "Candela Villalba",
+         "height": 720,
+         "width": 1280
       },
       "multimedia": [
          {
             "fileID": "1itCDMHhLZtJzsObbVG8JrAJrLgo801-g",
-            "student": "Candela Villalba"
+            "student": "Candela Villalba",
+            "height": 720,
+            "width": 1280
          },
          {
             "fileID": "1XOX5ycJB4Hr_wbQOPwHHnLIeJ8Z-dedI",
-            "student": "Hilario Lagos_Climate change and its effects on water - Presentaciones de Google"
-         },
-         {
-            "fileID": "1ijxUJeAMkgpjTBjTduWKmKHTwrPAnbI0Q_uXvhIIAoc",
-            "student": "Candearia Lopez \u0026 Liv Iolster"
+            "student": "Hilario Lagos_Climate change and its effects on water - Presentaciones de Google",
+            "height": 570,
+            "width": 1280
          },
          {
             "fileID": "1XRuq6xAb-tZJmZqaRMDIKqjqMniVc1aS",
-            "student": "Ekaterina Ojeda"
-         },
-         {
-            "fileID": "1F-tOMdiD92vp9QiMomT-7mD3MJdyALPF",
-            "student": "Camila Albarracin"
-         },
-         {
-            "fileID": "143kCY6OoQcuSm1qMk_Af2gQ2SkTGt5DF",
-            "student": "Alejo Baez"
+            "student": "Ekaterina Ojeda",
+            "height": 568,
+            "width": 320
          },
          {
             "fileID": "1jIG9uLBacUlTZ9OLW2Si7LPqGT5BYpfR",
-            "student": "Nicola Santilli"
-         },
-         {
-            "fileID": "1uWc7jAWpRKeJ3dJUEKFXu_OHJxiEFKcG",
-            "student": "Documento sin título"
+            "student": "Nicola Santilli",
+            "height": 1080,
+            "width": 1080
          },
          {
             "fileID": "1gG-zvUJwPP6gIkhRjGlqVbX9TO_UWKOm",
-            "student": "Alejo Baez"
+            "student": "Alejo Baez",
+            "height": 1080,
+            "width": 1920
          }
       ]
    }

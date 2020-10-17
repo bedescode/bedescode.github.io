@@ -34,15 +34,12 @@ html, body {
   visibility: initial;
 }
 
-.leaf {
-  width:100px; 
-  height:100px; 
-  background-color: ivory;
+.leaf div {
+  border: 4px solid #0ADBD0 ;
 }
 
-.leaf iframe{
-  width: 100%;
-  height: 100%;
+.leaf img{
+  display:block;
 }
 
 .leaf p{
