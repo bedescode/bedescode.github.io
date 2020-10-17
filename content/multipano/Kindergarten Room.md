@@ -13,17 +13,35 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "1SXTuadw0DS8sgd64H1JrxlsF4LnvYOCD",
-         "student": "1 - Jennifer Gei - Science in Kinder",
-         "height": 480,
-         "width": 640
+         "fileID": "1zpVXo6qbq3knRCgHR5SEW63ph_VQSOa5",
+         "student": "drawing",
+         "height": 1863,
+         "width": 1112
       },
       "multimedia": [
+         {
+            "fileID": "1zpVXo6qbq3knRCgHR5SEW63ph_VQSOa5",
+            "student": "drawing",
+            "height": 1863,
+            "width": 1112
+         },
          {
             "fileID": "1SXTuadw0DS8sgd64H1JrxlsF4LnvYOCD",
             "student": "1 - Jennifer Gei - Science in Kinder",
             "height": 480,
             "width": 640
+         },
+         {
+            "fileID": "1bNasCdnSmNvs78z_SE6iRkaut7aeFxl-",
+            "student": "page-2-drawing",
+            "height": 1247,
+            "width": 1662
+         },
+         {
+            "fileID": "1ZsQIhLjC6eXgf8Ka-hsVn5jUVyMvXL4z",
+            "student": "page-1-drawing",
+            "height": 1244,
+            "width": 1665
          },
          {
             "fileID": "1-oiY_U5XwuvDaFp17A_9Bt_wK_BHdzXk",

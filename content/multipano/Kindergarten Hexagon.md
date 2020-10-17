@@ -13,12 +13,18 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "1_d-wifWO0M8vDi7J18I0nxPuYfo0FBhu",
-         "student": "Nahuel casa",
-         "height": 1080,
-         "width": 810
+         "fileID": "1ayKNqJR8sRxXvhRWLmM4AjXP5QHV3E95",
+         "student": "1- Valeria Zanotti - Directora Kinder - Arte",
+         "height": 1920,
+         "width": 1080
       },
       "multimedia": [
+         {
+            "fileID": "1ayKNqJR8sRxXvhRWLmM4AjXP5QHV3E95",
+            "student": "1- Valeria Zanotti - Directora Kinder - Arte",
+            "height": 1920,
+            "width": 1080
+         },
          {
             "fileID": "1_d-wifWO0M8vDi7J18I0nxPuYfo0FBhu",
             "student": "Nahuel casa",
