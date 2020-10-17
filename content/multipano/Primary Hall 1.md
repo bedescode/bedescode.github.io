@@ -13,12 +13,18 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "12a8DZunmO4iqA9K5xzEXD8IJF2DdX5sl",
-         "student": "selene rebiere",
-         "height": 1280,
-         "width": 720
+         "fileID": "1ozKHzJesguMn58W9Br9vUBTyGEyyWKBy",
+         "student": "01 - Science in Primary - Antonella Gaitan",
+         "height": 480,
+         "width": 848
       },
       "multimedia": [
+         {
+            "fileID": "1ozKHzJesguMn58W9Br9vUBTyGEyyWKBy",
+            "student": "01 - Science in Primary - Antonella Gaitan",
+            "height": 480,
+            "width": 848
+         },
          {
             "fileID": "12a8DZunmO4iqA9K5xzEXD8IJF2DdX5sl",
             "student": "selene rebiere",
