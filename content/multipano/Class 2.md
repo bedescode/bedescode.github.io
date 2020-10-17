@@ -11,43 +11,26 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureURL": "",
-      "feature": {
-         "fileID": "1itCDMHhLZtJzsObbVG8JrAJrLgo801-g",
-         "student": "Candela Villalba",
-         "height": 720,
-         "width": 1280
-      },
       "multimedia": [
          {
-            "fileID": "1itCDMHhLZtJzsObbVG8JrAJrLgo801-g",
-            "student": "Candela Villalba",
-            "height": 720,
-            "width": 1280
+            "fileID": "1gG-zvUJwPP6gIkhRjGlqVbX9TO_UWKOm",
+            "student": "Alejo Baez"
          },
          {
-            "fileID": "1XOX5ycJB4Hr_wbQOPwHHnLIeJ8Z-dedI",
-            "student": "Hilario Lagos_Climate change and its effects on water - Presentaciones de Google",
-            "height": 570,
-            "width": 1280
+            "fileID": "1itCDMHhLZtJzsObbVG8JrAJrLgo801-g",
+            "student": "Candela Villalba"
          },
          {
             "fileID": "1XRuq6xAb-tZJmZqaRMDIKqjqMniVc1aS",
-            "student": "Ekaterina Ojeda",
-            "height": 568,
-            "width": 320
+            "student": "Ekaterina Ojeda"
+         },
+         {
+            "fileID": "1XOX5ycJB4Hr_wbQOPwHHnLIeJ8Z-dedI",
+            "student": "Hilario Lagos_Climate change and its effects on water - Presentaciones de Google"
          },
          {
             "fileID": "1jIG9uLBacUlTZ9OLW2Si7LPqGT5BYpfR",
-            "student": "Nicola Santilli",
-            "height": 1080,
-            "width": 1080
-         },
-         {
-            "fileID": "1gG-zvUJwPP6gIkhRjGlqVbX9TO_UWKOm",
-            "student": "Alejo Baez",
-            "height": 1080,
-            "width": 1920
+            "student": "Nicola Santilli"
          }
       ]
    }

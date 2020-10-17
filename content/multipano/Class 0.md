@@ -10,12 +10,5 @@
       "yaw": 1.57,
       "pitch": -0.5,
       "extratransforms": "",
-      "class": "",
-      "featureURL": "",
-      "feature": {
-         "fileID": "",
-         "student": "",
-         "height": 0,
-         "width": 0
-      }
+      "class": ""
    }
