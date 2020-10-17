@@ -34,7 +34,7 @@
      var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 
      
-     var source = Marzipano.ImageUrlSource.fromString("https:\/\/i.imgur.com\/AjDwNIF.jpg");
+     var source = Marzipano.ImageUrlSource.fromString("https:\/\/i.imgur.com\/fhzJ6Th.jpg");
 
      
      var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
@@ -60,16 +60,12 @@
      var i;
      for (i in multimedia){
           var m = document.createElement("div");
-          m.style="width:100px; height:100px; background-color: yellow"
+          m.className = "leaf"
           var iframe = document.createElement("iframe")
-          iframe.style =  "width:100%; height:100%;"
           var newsrc = `https:\/\/drive.google.com\/file\/d\/${multimedia[i].fileID}\/preview`
           iframe.src = newsrc
           var student = document.createElement("p");
           student.innerText = multimedia[i].student
-          student.style = `font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                           font-size: large;
-                           color: white;`
           m.appendChild(iframe)
           m.append(student)
           let p = 0.4 * (0.5 - i/n) * Math.PI
