@@ -31,7 +31,7 @@
 
      // Create view.
      var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({}, limiter);
+     var view = new Marzipano.RectilinearView({yaw:{{.Params.yaw}}, pitch:{{.Params.pitch}}}, limiter);
 
      // Create scene.
      var scene = viewer.createScene({
@@ -48,7 +48,7 @@
      var container = scene.hotspotContainer();
 
      // Put up the screen
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0,pitch:0},
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw:{{.Params.yaw}}, pitch:{{.Params.pitch}}},
      {perspective: {radius: {{ .Params.height }}/{{ .Params.screensize }}, extraTransforms: "",}});
 
      //Buttons
