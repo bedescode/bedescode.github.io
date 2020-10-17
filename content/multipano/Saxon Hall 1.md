@@ -1,6 +1,6 @@
 {
       "panoURL": "https://i.imgur.com/Za0x1Np.jpg",
-      "type": "",
+      "type": "tornado",
       "folderURL": "https://drive.google.com/drive/folders/1KlX_Hjf5gEvWZTHcHnlQhlIX76CYiBPe?usp=sharing",
       "title": "Saxon Hall 1",
       "description": "",
