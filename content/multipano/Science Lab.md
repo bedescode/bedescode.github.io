@@ -1,7 +1,7 @@
 {
       "panoURL": "https://i.imgur.com/g3Y9S7t.jpg",
       "type": "",
-      "folderURL": "https://drive.google.com/drive/folders/1ux_69eKilLfR-hdyB3SXlLRZm1ngjduL?usp=sharing",
+      "folderURL": "https://drive.google.com/drive/folders/1mFglmlVLyoVxcm_jGOB_5JOvh_4zmOlt?usp=sharing",
       "title": "Science Lab",
       "description": "",
       "screensize": 0.75,
@@ -11,30 +11,43 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
+      "featureURL": "",
+      "feature": {
+         "fileID": "1Xa9NmUpoy_YdF6h-xn-n0Ie-udQ09JWV",
+         "student": "Practical Science - Oli Markl",
+         "height": 720,
+         "width": 1280
+      },
       "multimedia": [
          {
-            "fileID": "1DN0_lNBysCVy1YHOeCDcmhxufzDdvi8y",
-            "student": "Isa Ormaechea Egg - she didn't agree to the science fair"
-         },
-         {
-            "fileID": "1kXb63VGgYsMLSH47ElIhzyTSuHpHaan6",
-            "student": "Joaquina Xantopoulos - she didnt agree to the fair"
-         },
-         {
-            "fileID": "1IxdoxeC7rk5WWuQG68obExVF_1Tne813",
-            "student": "Lucas Paluci - his choice"
-         },
-         {
-            "fileID": "15y2pZI3AiiGWG_Blkh_aZBZTuHv3N1gW",
-            "student": "Meli Darduin tiktok"
-         },
-         {
-            "fileID": "1Vm8ceLwsaFo16YVdAduV61wicUG0niRK",
-            "student": "Tomas Devoto - his choice - eggs"
+            "fileID": "1Xa9NmUpoy_YdF6h-xn-n0Ie-udQ09JWV",
+            "student": "Practical Science - Oli Markl",
+            "height": 720,
+            "width": 1280
          },
          {
             "fileID": "1ih03hoXiKb1aHbCCegj1xXOrmP4BK9Wr",
-            "student": "Tomas Devoto - smoke rings"
+            "student": "Practical Science - Tomas Devoto - Smoke Rings",
+            "height": 720,
+            "width": 1280
+         },
+         {
+            "fileID": "1Vm8ceLwsaFo16YVdAduV61wicUG0niRK",
+            "student": "Practical Science - Tomas Devoto - Eggs",
+            "height": 720,
+            "width": 1280
+         },
+         {
+            "fileID": "15y2pZI3AiiGWG_Blkh_aZBZTuHv3N1gW",
+            "student": "Practical Science - Meli Darduin - Tiktok",
+            "height": 960,
+            "width": 540
+         },
+         {
+            "fileID": "1IxdoxeC7rk5WWuQG68obExVF_1Tne813",
+            "student": "Practical Science - Lucas Paluci",
+            "height": 480,
+            "width": 272
          }
       ]
    }

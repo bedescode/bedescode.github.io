@@ -10,5 +10,12 @@
       "yaw": 0,
       "pitch": 0,
       "extratransforms": "",
-      "class": ""
+      "class": "",
+      "featureURL": "",
+      "feature": {
+         "fileID": "",
+         "student": "",
+         "height": 0,
+         "width": 0
+      }
    }

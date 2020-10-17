@@ -10,5 +10,20 @@
       "yaw": 1.57,
       "pitch": -0.5,
       "extratransforms": "",
-      "class": ""
+      "class": "",
+      "featureURL": "",
+      "feature": {
+         "fileID": "1c7ENvn_r7KbK-aiCBIVl-KcOXbD6MmsE",
+         "student": "1- Paz Rodriguez Wilkinson - Biology",
+         "height": 360,
+         "width": 640
+      },
+      "multimedia": [
+         {
+            "fileID": "1c7ENvn_r7KbK-aiCBIVl-KcOXbD6MmsE",
+            "student": "1- Paz Rodriguez Wilkinson - Biology",
+            "height": 360,
+            "width": 640
+         }
+      ]
    }
