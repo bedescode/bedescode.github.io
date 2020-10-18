@@ -11,43 +11,26 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureURL": "",
-      "feature": {
-         "fileID": "1x4wjAxFh5Y8kcR78jdDEIq1SwMYWRRnw",
-         "student": "Bautista Silva Clemente",
-         "height": 288,
-         "width": 480
-      },
       "multimedia": [
          {
-            "fileID": "1x4wjAxFh5Y8kcR78jdDEIq1SwMYWRRnw",
-            "student": "Bautista Silva Clemente",
-            "height": 288,
-            "width": 480
+            "fileID": "15TAK_p6GTts--EfR9wcYaE1ZmX6rXQlP",
+            "student": "animals for coursework and science fair (26 ago"
          },
          {
-            "fileID": "1U0rjAhBLrw_SBXsDC6mcQEaTYV5odzQL",
-            "student": "Lara Benghiat",
-            "height": 1024,
-            "width": 576
+            "fileID": "1x4wjAxFh5Y8kcR78jdDEIq1SwMYWRRnw",
+            "student": "Bautista Silva Clemente"
          },
          {
             "fileID": "1MHMeuXzw37rf_CfpClGW1qOzfeL8X5T4",
-            "student": "Francisca Sabioni Blanc",
-            "height": 1136,
-            "width": 640
+            "student": "Francisca Sabioni Blanc"
+         },
+         {
+            "fileID": "1U0rjAhBLrw_SBXsDC6mcQEaTYV5odzQL",
+            "student": "Lara Benghiat"
          },
          {
             "fileID": "1HqevlZDmIuV_XhFAL2tYjuv8HqQYWvVJ",
-            "student": "Moira Graham_",
-            "height": 568,
-            "width": 320
-         },
-         {
-            "fileID": "15TAK_p6GTts--EfR9wcYaE1ZmX6rXQlP",
-            "student": "animals for coursework and science fair (26 ago",
-            "height": 720,
-            "width": 1280
+            "student": "Moira Graham_"
          }
       ]
    }

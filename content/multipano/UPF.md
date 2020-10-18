@@ -11,79 +11,50 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureURL": "",
-      "feature": {
-         "fileID": "1glfwARW11I2nvgFjReZOEXm0nZjI7awl",
-         "student": "UPF-PHOTOS",
-         "height": 652,
-         "width": 1166
-      },
       "multimedia": [
          {
-            "fileID": "1glfwARW11I2nvgFjReZOEXm0nZjI7awl",
-            "student": "UPF-PHOTOS",
-            "height": 652,
-            "width": 1166
-         },
-         {
-            "fileID": "13VYON3PDSfWWM0Jtxofi8NBhHLHKHOwQ",
-            "student": "Our HIstory UPF",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1EPcQy6HIk9B2heQAfVSuKfu2Ier8sgFo",
-            "student": "3 - Building the UPF - 2019",
-            "height": 450,
-            "width": 800
+            "fileID": "1BKc9R24fuvRyo76PNsSz5U5l4NYRcDvB",
+            "student": "1- Marcos Prado - Veggie Garden Teacher"
          },
          {
             "fileID": "1nmU3EgQg5QkRVMJ6haLxvw-m1661mDjy",
-            "student": "2 - Manuel Olivera - Veggie Garden Captain",
-            "height": 1920,
-            "width": 1088
+            "student": "2 - Manuel Olivera - Veggie Garden Captain"
          },
          {
-            "fileID": "1Fx0-pcn9PnsBNOISdCHoG6jw9aMCuheI",
-            "student": "Class Activity 08/21 (18 sep",
-            "height": 568,
-            "width": 320
-         },
-         {
-            "fileID": "1BKc9R24fuvRyo76PNsSz5U5l4NYRcDvB",
-            "student": "1- Marcos Prado - Veggie Garden Teacher",
-            "height": 352,
-            "width": 640
+            "fileID": "1EPcQy6HIk9B2heQAfVSuKfu2Ier8sgFo",
+            "student": "3 - Building the UPF - 2019"
          },
          {
             "fileID": "1Zp21m8CjTndvFGmKE7-DFy1LPsIr9GKM",
-            "student": "Class Activity 08/21 (6 oct",
-            "height": 1280,
-            "width": 720
+            "student": "Class Activity 08/21 (6 oct"
          },
          {
-            "fileID": "1GcvLMpqQGKHtqSu3PmQNY6h3smMpdr8U",
-            "student": "Class Activity 08/21 (sep",
-            "height": 568,
-            "width": 320
-         },
-         {
-            "fileID": "1DqEyUUDL3RxkS-dC74R_Tg5R351aPoIA",
-            "student": "Veggie Garden Final",
-            "height": 1050,
-            "width": 1680
-         },
-         {
-            "fileID": "1cvbKnu2G_NtUE4ldq2J2l_gokE3xvLwW",
-            "student": "Class Activity 08/21 (18 sep",
-            "height": 568,
-            "width": 320
+            "fileID": "1Fx0-pcn9PnsBNOISdCHoG6jw9aMCuheI",
+            "student": "Class Activity 08/21 (18 sep"
          },
          {
             "fileID": "1MwwEfaY0RP9mCNxiMJqGzCL6JM3mh2Xd",
-            "student": "Class Activity 08/21 (18 sep",
-            "height": 568,
-            "width": 320
+            "student": "Class Activity 08/21 (18 sep"
+         },
+         {
+            "fileID": "1cvbKnu2G_NtUE4ldq2J2l_gokE3xvLwW",
+            "student": "Class Activity 08/21 (18 sep"
+         },
+         {
+            "fileID": "1GcvLMpqQGKHtqSu3PmQNY6h3smMpdr8U",
+            "student": "Class Activity 08/21 (sep"
+         },
+         {
+            "fileID": "13VYON3PDSfWWM0Jtxofi8NBhHLHKHOwQ",
+            "student": "Our HIstory UPF"
+         },
+         {
+            "fileID": "1glfwARW11I2nvgFjReZOEXm0nZjI7awl",
+            "student": "UPF-PHOTOS"
+         },
+         {
+            "fileID": "1DqEyUUDL3RxkS-dC74R_Tg5R351aPoIA",
+            "student": "Veggie Garden Final"
          }
       ]
    }

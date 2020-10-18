@@ -11,79 +11,50 @@
       "pitch": 0,
       "extratransforms": "",
       "class": "",
-      "featureURL": "",
-      "feature": {
-         "fileID": "1EMNHkLYR311APoJ7SrLtepZfMY9pLw-l",
-         "student": "1- Alejandro - de Mendoza - intro video",
-         "height": 352,
-         "width": 640
-      },
       "multimedia": [
          {
             "fileID": "1EMNHkLYR311APoJ7SrLtepZfMY9pLw-l",
-            "student": "1- Alejandro - de Mendoza - intro video",
-            "height": 352,
-            "width": 640
-         },
-         {
-            "fileID": "1rG-bLOiXpOuiWX8LITDOriYxtcPHd7eu",
-            "student": "SCIENCE FAIR PROJECT R_Portnoi_Joaco_Ulises_T_Chinni",
-            "height": 480,
-            "width": 360
-         },
-         {
-            "fileID": "1YUAH8e5Sa0iok1D2y7dT3Mx2Eb4IFI72",
-            "student": "SCIENCE FAIR Jacinta_Moreno_Josefina_Carluccio",
-            "height": 320,
-            "width": 568
-         },
-         {
-            "fileID": "19HyLsq3H8vEN875DbLjgjyVAi44qV2Fv",
-            "student": "SCIENCE FAIR PROJECT RAMIRO IGLESIAS",
-            "height": 720,
-            "width": 1280
-         },
-         {
-            "fileID": "1xZAcRhLZFC0aZ2OzJjZDgV96Tl8wHtbh",
-            "student": "SCIENCE PROJECT MARGARITA BUSTOS",
-            "height": 541,
-            "width": 1024
+            "student": "1- Alejandro - de Mendoza - intro video"
          },
          {
             "fileID": "1tIrB1bD1ghIWYD2EDusRTwvsgppJPAlb",
-            "student": "Catalina Del Casale",
-            "height": 480,
-            "width": 848
+            "student": "Catalina Del Casale"
          },
          {
-            "fileID": "1NJgNXju9-iMHD8Nh1yaJt2v06WKf65nh",
-            "student": "Science Project Salvador_Grant",
-            "height": 900,
-            "width": 1440
-         },
-         {
-            "fileID": "1hvEfal2zK3UfclZZAQw10OR3vU7-6AK1",
-            "student": "SCIENCE FAIR PROJECT Delfina Urungaray",
-            "height": 541,
-            "width": 1024
-         },
-         {
-            "fileID": "1zXhawNKBrrEYrXekPsjmQ6gDisY0VGAI",
-            "student": "SCIENCE FAIR PROJECT Delfina Irungaray",
-            "height": 480,
-            "width": 288
-         },
-         {
-            "fileID": "1ENEy2rGhrflMqVU5GNX3OTlvloKrVwPs",
-            "student": "SCIENCE FAIR PROJECT Ulises Champalanne",
-            "height": 1280,
-            "width": 960
+            "fileID": "1YUAH8e5Sa0iok1D2y7dT3Mx2Eb4IFI72",
+            "student": "SCIENCE FAIR Jacinta_Moreno_Josefina_Carluccio"
          },
          {
             "fileID": "1C10KihmxmV_xUCwNvjwCY8c71r7w5euq",
-            "student": "SCIENCE FAIR PROJECT CAMINOS_ PEDRO",
-            "height": 1080,
-            "width": 1920
+            "student": "SCIENCE FAIR PROJECT CAMINOS_ PEDRO"
+         },
+         {
+            "fileID": "1zXhawNKBrrEYrXekPsjmQ6gDisY0VGAI",
+            "student": "SCIENCE FAIR PROJECT Delfina Irungaray"
+         },
+         {
+            "fileID": "1hvEfal2zK3UfclZZAQw10OR3vU7-6AK1",
+            "student": "SCIENCE FAIR PROJECT Delfina Urungaray"
+         },
+         {
+            "fileID": "1rG-bLOiXpOuiWX8LITDOriYxtcPHd7eu",
+            "student": "SCIENCE FAIR PROJECT R_Portnoi_Joaco_Ulises_T_Chinni"
+         },
+         {
+            "fileID": "19HyLsq3H8vEN875DbLjgjyVAi44qV2Fv",
+            "student": "SCIENCE FAIR PROJECT RAMIRO IGLESIAS"
+         },
+         {
+            "fileID": "1ENEy2rGhrflMqVU5GNX3OTlvloKrVwPs",
+            "student": "SCIENCE FAIR PROJECT Ulises Champalanne"
+         },
+         {
+            "fileID": "1xZAcRhLZFC0aZ2OzJjZDgV96Tl8wHtbh",
+            "student": "SCIENCE PROJECT MARGARITA BUSTOS"
+         },
+         {
+            "fileID": "1NJgNXju9-iMHD8Nh1yaJt2v06WKf65nh",
+            "student": "Science Project Salvador_Grant"
          }
       ]
    }
