@@ -1,9 +1,9 @@
 imgsrc: https://i.imgur.com/4xwJCFG.jpg
-height: 609px
-width: 893px
+height: 609.0
+width: 893.0
 
 points:
   -
-    xp: 40px
-    yp: 40px
-    href: https://i.imgur.com/4xwJCFG.jpg
+    xp: 40%
+    yp: 40%
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/
