@@ -5,7 +5,7 @@
           body{
                margin: 0;
                width: 100%;
-               background-image: url("https://i.imgur.com/4xwJCFG.jpg");
+               background-image: url("{{.Site.Data.mapinfo.img}}");
                background-size: cover;
                background-repeat: no-repeat;
           }
@@ -35,5 +35,5 @@
 {{end}}
 
 <body>
-     {{range .Site.Data.mapinfo.points}}<a href={{.href}} style="padding-left: {{.xp}}; padding-top:{{.yp}}"><div></div></a> {{end}}
+     {{range .Site.Data.mapinfo.points}}<a href={{.href}} style="padding-left: {{.xp}}; padding-top:{{.yp}}"><div title="{{.title}}"></div></a> {{end}}
 </body>
