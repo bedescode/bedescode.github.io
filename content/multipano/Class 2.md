@@ -42,12 +42,6 @@
             "student": "Nicola Santilli",
             "height": 1080,
             "width": 1080
-         },
-         {
-            "fileID": "1gG-zvUJwPP6gIkhRjGlqVbX9TO_UWKOm",
-            "student": "Alejo Baez",
-            "height": 1080,
-            "width": 1920
          }
       ]
    }

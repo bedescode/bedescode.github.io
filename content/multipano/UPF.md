@@ -1,7 +1,7 @@
 {
       "panoURL": "https://i.imgur.com/4jD7Wn5.jpg",
       "type": "",
-      "folderURL": "https://drive.google.com/drive/folders/1ALKD3B4Z-ZP_A92TCdTKyCDYWhNTyMmv",
+      "folderURL": "https://drive.google.com/drive/folders/1ALKD3B4Z-ZP_A92TCdTKyCDYWhNTyMmv?usp=sharing",
       "title": "UPF",
       "description": "",
       "screensize": 0.75,
@@ -13,12 +13,54 @@
       "class": "",
       "featureURL": "",
       "feature": {
-         "fileID": "1GcvLMpqQGKHtqSu3PmQNY6h3smMpdr8U",
-         "student": "Class Activity 08/21 (sep",
-         "height": 568,
-         "width": 320
+         "fileID": "1glfwARW11I2nvgFjReZOEXm0nZjI7awl",
+         "student": "UPF-PHOTOS",
+         "height": 652,
+         "width": 1166
       },
       "multimedia": [
+         {
+            "fileID": "1glfwARW11I2nvgFjReZOEXm0nZjI7awl",
+            "student": "UPF-PHOTOS",
+            "height": 652,
+            "width": 1166
+         },
+         {
+            "fileID": "13VYON3PDSfWWM0Jtxofi8NBhHLHKHOwQ",
+            "student": "Our HIstory UPF",
+            "height": 576,
+            "width": 1024
+         },
+         {
+            "fileID": "1EPcQy6HIk9B2heQAfVSuKfu2Ier8sgFo",
+            "student": "3 - Building the UPF - 2019",
+            "height": 450,
+            "width": 800
+         },
+         {
+            "fileID": "1nmU3EgQg5QkRVMJ6haLxvw-m1661mDjy",
+            "student": "2 - Manuel Olivera - Veggie Garden Captain",
+            "height": 1920,
+            "width": 1088
+         },
+         {
+            "fileID": "1Fx0-pcn9PnsBNOISdCHoG6jw9aMCuheI",
+            "student": "Class Activity 08/21 (18 sep",
+            "height": 568,
+            "width": 320
+         },
+         {
+            "fileID": "1BKc9R24fuvRyo76PNsSz5U5l4NYRcDvB",
+            "student": "1- Marcos Prado - Veggie Garden Teacher",
+            "height": 352,
+            "width": 640
+         },
+         {
+            "fileID": "1Zp21m8CjTndvFGmKE7-DFy1LPsIr9GKM",
+            "student": "Class Activity 08/21 (6 oct",
+            "height": 1280,
+            "width": 720
+         },
          {
             "fileID": "1GcvLMpqQGKHtqSu3PmQNY6h3smMpdr8U",
             "student": "Class Activity 08/21 (sep",
@@ -42,102 +84,6 @@
             "student": "Class Activity 08/21 (18 sep",
             "height": 568,
             "width": 320
-         },
-         {
-            "fileID": "1K0Lu6CU__Z_SmXSNNRtZJqyuLApeXnEb",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1wbVU_k0EUsvqnGSkBzxjZqbhZa2nnIcn",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "13VYON3PDSfWWM0Jtxofi8NBhHLHKHOwQ",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1sVq_bDN32uZqfUUzU_QhFl254Ni9mv9Q",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "110HaeE1WtU5XSVX78nDfJiYWsT0RQkCt",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1kzfWtFp9t5-gVgnkW8Dy2hrJGloKSM6I",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1DMMpH5qSPm4PDY53L0imwTtaHqeRu5JA",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1TMy1OTIxFzjYiSpCOjyIMK0aMEs_DDKa",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 576,
-            "width": 1024
-         },
-         {
-            "fileID": "1NBdCU45cA2faLWKpfUw_9q2e_hHPSLP2",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "1xW_vxGkHrfrkyYy-LB_U1-A32wNfI-GP",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "12_8BH-AwxS8OpH9TQo4QaCLpM9Ee83Pu",
-            "student": "WhatsApp Image 2019-06-01 at 4",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "1ErVWFaMgQ7P2UY36myEBxzhW72Ns5f4-",
-            "student": "WhatsApp Image 2019-05-20 at 6",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "1MBpznWApB2k5-NpcEaluJ6ogq8RIDxhM",
-            "student": "WhatsApp Image 2019-05-20 at 6",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "1OvZ6Wv9hMIFvqjIhI3_GEKp2sbGbnOCo",
-            "student": "WhatsApp Image 2019-05-20 at 6",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "1EzTro7mt5zh_d5OFHVR9rSJmaGL2gMRG",
-            "student": "WhatsApp Image 2019-05-20 at 6",
-            "height": 585,
-            "width": 1040
-         },
-         {
-            "fileID": "1RBOSfk9xf1vccORm3xPCG8YJDMeL3iE0",
-            "student": "WhatsApp Image 2019-05-20 at 6",
-            "height": 585,
-            "width": 1040
          }
       ]
    }
