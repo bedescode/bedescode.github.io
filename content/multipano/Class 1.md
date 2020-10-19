@@ -26,7 +26,7 @@
          },
          {
             "fileID": "1U0rjAhBLrw_SBXsDC6mcQEaTYV5odzQL",
-            "student": "Lara Benghiat"
+            "student": "Maria Lucila Champane Peña"
          },
          {
             "fileID": "1HqevlZDmIuV_XhFAL2tYjuv8HqQYWvVJ",
