@@ -43,7 +43,9 @@
      <button class="mc-button" data-student="Weather Station.jpg" data-src="114F1oF8EJ-erJffZgyRMNUvXsBA8eSEA"></button>
      <button class="mc-button" data-student="Weather Station.jpg" data-src="1N5DSvj8E125MZo3Igdvmp3W4QwEC_9GW"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -108,19 +110,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>

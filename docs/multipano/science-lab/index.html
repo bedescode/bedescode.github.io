@@ -42,7 +42,9 @@
      <button class="mc-button" data-student="Robotics - Hilario L. - Stoplights" data-src="1EY3Jmt78om2aFzNo9PwlXBwCM5t3bqiz"></button>
      <button class="mc-button" data-student="Robotics - Juan Cruz G. R. - Distance Sensor" data-src="1mgKQMfN0m7jGiNxnunGvGCdZIzxqTHom"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -107,19 +109,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>

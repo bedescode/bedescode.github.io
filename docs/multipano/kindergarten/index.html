@@ -54,7 +54,9 @@
      <button class="mc-button" data-student="Clara Barbolla proyecto mural jardín" data-src="1xh4vEqrB6CUJwu7H37yRLcNyGYuRXLlv"></button>
      <button class="mc-button" data-student="Federico Chennales proyecto mural" data-src="1C4W8TbhGifPpcUGR4aQPZYH8t_wQgGHa"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -119,19 +121,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>

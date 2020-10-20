@@ -42,7 +42,9 @@
      <button class="mc-button" data-student="Float or Sink - 1st Form Poplar.mp4" data-src="1p8BthgcwT01axLOX-0q4Ym9u97wfOVgg"></button>
      <button class="mc-button" data-student="Float or Sink -1st Form Eucaliptus --.mp4" data-src="1nLPTIXaI8ljgynh2cFdrYGzfNdzKJ7Cg"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -107,19 +109,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>

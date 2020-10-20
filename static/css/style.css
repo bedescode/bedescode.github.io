@@ -47,3 +47,16 @@ html, body {
   font-size: large;
   color: white;
 }
+
+#notice {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  color: yellow;
+  position: absolute;
+  line-height: 5vw;
+  margin-top: -2.5vw;
+  top: 5vw;
+  right: -3em;
+}

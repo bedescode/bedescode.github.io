@@ -39,7 +39,9 @@
      <button class="mc-button" data-student="3 - Minecraft Team.png" data-src="1h68MoQeudROY87DnvGvJE2cWxUECRi_T"></button>
      <button class="mc-button" data-student="4 - Agustín Canalis - Physics &amp; Chemistry Teacher.mp4" data-src="18Phh8BjtmyKDrluf0AeXBE-mY1cRqfn-"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -104,19 +106,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>

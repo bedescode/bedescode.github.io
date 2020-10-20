@@ -45,7 +45,9 @@
      <button class="mc-button" data-student="Mia T." data-src="1jDEP7WuG0hEBV1mRZkErWcpdjHYu8eLJ"></button>
      <button class="mc-button" data-student="Tiziana M." data-src="15cEZjay0NGeiILNhgGM-GbYZFhYE084y"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -110,19 +112,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>

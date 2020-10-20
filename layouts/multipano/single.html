@@ -13,7 +13,9 @@
      <div id="btn-group">  {{if ge (len (default slice .Params.multimedia)) 2}}
      {{range .Params.multimedia}}<button class="mc-button" data-student="{{.student}}" data-src="{{.fileID}}"></button>
      {{end}}{{end}}
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 {{end}}
 
@@ -78,7 +80,7 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      {{end}}
-     
+
      // Workaround mouse getting stuck
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;

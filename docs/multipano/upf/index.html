@@ -49,7 +49,9 @@
      <button class="mc-button" data-student="UPF-PHOTOS.png" data-src="1glfwARW11I2nvgFjReZOEXm0nZjI7awl"></button>
      <button class="mc-button" data-student="Veggie Garden Final.mp4" data-src="1DqEyUUDL3RxkS-dC74R_Tg5R351aPoIA"></button>
      
+     <p id="notice">⬅Push!</p>
      </div>
+     
 </div>
 
 
@@ -114,19 +116,20 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+
      
      const iframes = document.getElementsByTagName('iframe');
      const dragCtl = viewer.controls().method('mouseViewDrag').instance;
 
      dragCtl.addEventListener('active', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'none';
+          el.style.pointerEvents = 'none';
      }
      });
 
      dragCtl.addEventListener('inactive', () => {
      for (const el of iframes) {
-     el.style.pointerEvents = 'all';
+          el.style.pointerEvents = 'all';
      }
      });
 </script>
