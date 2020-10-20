@@ -14,83 +14,79 @@
       "multimedia": [
          {
             "fileID": "1ayKNqJR8sRxXvhRWLmM4AjXP5QHV3E95",
-            "student": "1- Valeria Zanotti - Directora Kinder - Arte"
+            "student": "1- Valeria Zanotti - Directora Kinder - Arte.mp4"
          },
          {
             "fileID": "1k0AvbyselJl0V9DUrImQ7BwmaMjN5WpJ",
-            "student": "Alba Casa"
+            "student": "Alba"
          },
          {
             "fileID": "1dQcxD4V_-6VYSYsjWsKWdpLPwTs6ZWDI",
-            "student": "Antonia Ganduglia proyecto mural JARDÍN"
+            "student": "Antonia"
          },
          {
             "fileID": "1xh4vEqrB6CUJwu7H37yRLcNyGYuRXLlv",
-            "student": "Clara Barbolla proyecto mural jardín"
+            "student": "Clara"
          },
          {
             "fileID": "1t0auQXmLkXpFrysAu5l_l_gVvXDEv-jC",
-            "student": "Dante Cicala proyecto mural jardín"
+            "student": "Dante"
          },
          {
             "fileID": "1VSNZdczCZmMu7Da3jXMXa9Z4Y23O_Hcx",
-            "student": "Delfi Andrade proyecto mural jardín"
+            "student": "Delfi A."
          },
          {
             "fileID": "1WKYlLlWTlrZ8WwhjjXmSvWHCgmgn7CHx",
-            "student": "Delfi Grahmann proyecto mural jardín"
+            "student": "Delfi G."
          },
          {
             "fileID": "1C4W8TbhGifPpcUGR4aQPZYH8t_wQgGHa",
-            "student": "Federico Chennales proyecto mural"
+            "student": "Federico"
          },
          {
             "fileID": "1Jn3bFFd0M9VSHuK25TCZjNh4_Aa1kjv7",
-            "student": "Fran P casa"
+            "student": "Fran"
          },
          {
             "fileID": "1yaAeHBy7MeAtNMmyxroooEMzmLhuZ4FP",
-            "student": "image greta proyecto mural jardin"
+            "student": "Greta"
          },
          {
             "fileID": "1MTwuyT023Yo18r8Lj6GreLaQC0t4YaHQ",
-            "student": "Lara casa"
+            "student": "Lara"
          },
          {
             "fileID": "1XC4w0lq6rZuChf2N8R7KX9DvRDgRzasB",
-            "student": "León Blumengarten proyecto mural jardín"
+            "student": "León"
          },
          {
             "fileID": "1srQh1x2lPn0ecJCaAy8mAbJfqFyuJRc0",
-            "student": "Lorenzo casa"
+            "student": "Lorenzo"
          },
          {
             "fileID": "1QncRDzlcSa2A_koHqfV3y1TCQusr07da",
-            "student": "Manuel Irungaray proyecto mural jardín"
-         },
-         {
-            "fileID": "1mx8J5u9XsZYWLVVUaHElQQZOOG0_ES5D",
-            "student": "Manuel Irungaray proyecto mural jardín"
+            "student": "Manuel"
          },
          {
             "fileID": "1ib6WH5K8ZYquQP_UKgCWILa3q09mHREL",
-            "student": "Mora Mangen proyecyo mural jardín"
+            "student": "Mora"
          },
          {
             "fileID": "1_d-wifWO0M8vDi7J18I0nxPuYfo0FBhu",
-            "student": "Nahuel casa"
+            "student": "Nahuel"
          },
          {
             "fileID": "1s_HGNe-tWwV-J5QPbzeKbgBvZ2neE-O8",
-            "student": "Thomy Lerner proyecto mural jardín"
+            "student": "Thomy"
          },
          {
             "fileID": "1WLpTfdTlD8bqK2PIHaYx20_j2M23MopZ",
-            "student": "Timoteo Surico proyecto mural jardin"
+            "student": "Timoteo"
          },
          {
             "fileID": "1jGkjDmB0bDQAiMTT-LLstyqpamd5Ue1c",
-            "student": "Valentina Blanco Toledo proyecto mural jardín"
+            "student": "Valentina"
          }
       ]
    }

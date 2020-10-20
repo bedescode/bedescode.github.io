@@ -14,19 +14,19 @@
       "multimedia": [
          {
             "fileID": "1lCv7Wp182_6oU63CK0dmHnce3XRtgTBL",
-            "student": "1- Juana Demicheli Introduction to the Science Fair"
+            "student": "1 - Juana Demicheli Introduction to the Science Fair.mp4"
          },
          {
             "fileID": "1Cbys7n33rnJHY6Bb3CfQ3PYBKVzsc5E-",
-            "student": "2- Agustin Allegrotti - School Captain - Welcome"
+            "student": "2 - Agustin Allegrotti - School Captain - Welcome.mp4"
          },
          {
             "fileID": "1h68MoQeudROY87DnvGvJE2cWxUECRi_T",
-            "student": "3 - Minecraft Team"
+            "student": "3 - Minecraft Team.png"
          },
          {
             "fileID": "18Phh8BjtmyKDrluf0AeXBE-mY1cRqfn-",
-            "student": "4 - Agustín Canalis - Physics \u0026 Chemistry Teacher"
+            "student": "4 - Agustín Canalis - Physics \u0026 Chemistry Teacher.mp4"
          }
       ]
    }
