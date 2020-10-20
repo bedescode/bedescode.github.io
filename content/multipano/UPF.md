@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/4jD7Wn5.jpg",
+      "panoURL": "",
       "type": "",
       "folderURL": "https://drive.google.com/drive/folders/1ALKD3B4Z-ZP_A92TCdTKyCDYWhNTyMmv?usp=sharing",
       "title": "UPF",

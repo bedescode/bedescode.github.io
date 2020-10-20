@@ -1,5 +1,5 @@
 {
-      "panoURL": "https://i.imgur.com/28Wez0f.jpg",
+      "panoURL": "",
       "type": "",
       "folderURL": "https://drive.google.com/drive/folders/1aX121PPWF_LDxcGWBfupFeMm1qZlQaAw?usp=sharing",
       "title": "Primary Hall 2",

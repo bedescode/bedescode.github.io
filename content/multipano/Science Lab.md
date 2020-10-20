@@ -13,10 +13,6 @@
       "class": "",
       "multimedia": [
          {
-            "fileID": "1cg4oPsQSt_IdMePaNya3iF6a1DoLsR0E",
-            "student": "\"Action and Reaction\", Lucía C. - Victoria V. - Manuel O. L.- Candela L."
-         },
-         {
             "fileID": "1IxdoxeC7rk5WWuQG68obExVF_1Tne813",
             "student": "Practical Science - Lucas P."
          },
