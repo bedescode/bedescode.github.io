@@ -50,10 +50,9 @@
 
 <body>
      <div id="container">
-          <img src="{{.Site.Data.mapinfo.img}}">
-
-          {{range .Site.Data.mapinfo.points}}<a href={{.href}} style="left: {{.xp}}; top:{{.yp}};">
-               <div class="mc-button" title="{{.title}}"></div>
-          </a> {{end}}
+          <img src="{{.Site.Data.mapinfo.img}}">{{range .Site.Data.mapinfo.points}}
+          <a href={{.href}} style="left: {{.xp}}; top:{{.yp}};">
+               <div title="{{.title}}"></div>
+          </a>{{end}}
      </div>
 </body>
