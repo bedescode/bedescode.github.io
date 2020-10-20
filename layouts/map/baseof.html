@@ -2,25 +2,37 @@
 
 <head>
      <style>
-          body{
+          body {
                margin: 0;
                width: 100%;
-               background-image: url("{{.Site.Data.mapinfo.img}}");
-               background-size: cover;
-               background-repeat: no-repeat;
           }
-          #useless{
-               padding-top:{{mul 100 (div .Site.Data.mapinfo.height .Site.Data.mapinfo.width)}}%;
-          }
-          a {
-               display: block;
+
+          #container {
+               width: 100%;
+               padding-top: 100%;
                position: relative;
           }
+
+          img {
+               position: absolute;
+               top:0;
+               left: 0;
+               display: block;
+               width: 100%;
+          }
+
+          a {
+               position: absolute
+          }
+
           a div {
-               background-color:#0ADBD0;
                z-index: 2;
-               width: 20px;
-               height: 20px;
+               width: 2vw;
+               height: 2vw;
+               margin: -1vw;
+               border-radius: 50%;
+               background-color: #d22d61 ;
+               box-shadow: inset -2px -4px #00000066, inset 2px 2px #FFF7;
           }
      </style>
 </head>
@@ -29,11 +41,19 @@
 <script>
      document.addEventListener("click", clicker)
      function clicker(event) {
-          console.log(event.clientX, event.clientY)
+          let w = document.getElementById("container").offsetWidth
+          let s = `xp: ${100*event.clientX/w}\%\n    yp: ${100*event.clientY/w}\%\n    title: \n    href: a`
+          console.log(s)
      }
 </script>
 {{end}}
 
 <body>
-     {{range .Site.Data.mapinfo.points}}<a href={{.href}} style="padding-left: {{.xp}}; padding-top:{{.yp}}"><div title="{{.title}}"></div></a> {{end}}
+     <div id="container">
+          <img src="{{.Site.Data.mapinfo.img}}">
+
+          {{range .Site.Data.mapinfo.points}}<a href={{.href}} style="left: {{.xp}}; top:{{.yp}};">
+               <div class="mc-button" title="{{.title}}"></div>
+          </a> {{end}}
+     </div>
 </body>

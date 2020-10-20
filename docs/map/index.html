@@ -2,25 +2,37 @@
 
 <head>
      <style>
-          body{
+          body {
                margin: 0;
                width: 100%;
-               background-image: url("https://i.imgur.com/4xwJCFG.jpg");
-               background-size: cover;
-               background-repeat: no-repeat;
           }
-          #useless{
-               padding-top:68.19708846584547%;
-          }
-          a {
-               display: block;
+
+          #container {
+               width: 100%;
+               padding-top: 100%;
                position: relative;
           }
+
+          img {
+               position: absolute;
+               top:0;
+               left: 0;
+               display: block;
+               width: 100%;
+          }
+
+          a {
+               position: absolute
+          }
+
           a div {
-               background-color:#0ADBD0;
                z-index: 2;
-               width: 20px;
-               height: 20px;
+               width: 2vw;
+               height: 2vw;
+               margin: -1vw;
+               border-radius: 50%;
+               background-color: #d22d61 ;
+               box-shadow: inset -2px -4px #00000066, inset 2px 2px #FFF7;
           }
      </style>
 </head>
@@ -29,11 +41,35 @@
 <script>
      document.addEventListener("click", clicker)
      function clicker(event) {
-          console.log(event.clientX, event.clientY)
+          let w = document.getElementById("container").offsetWidth
+          let s = `xp: ${100*event.clientX/w}\%\n    yp: ${100*event.clientY/w}\%\n    title: \n    href: a`
+          console.log(s)
      }
 </script>
 
 
 <body>
-     <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/ style="padding-left: 40%; padding-top:40%"><div title="Test"></div></a> 
+     <div id="container">
+          <img src="https://i.imgur.com/cnpZuLH.jpg">
+
+          <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/saxon-hall style="left: 41.94341943419434%; top:22.632226322263221%;">
+               <div class="mc-button" title="Saxon Hall"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/science-lab style="left: 29.64329643296433%; top:35.670356703567035%;">
+               <div class="mc-button" title="Science Lab"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/kindergarten style="left: 28.65928659286593%; top:60.63960639606396%;">
+               <div class="mc-button" title="Kindergarten"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/primary style="left: 67.15867158671587%; top:28.41328413284133%;">
+               <div class="mc-button" title="Primary"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/weather-station style="left: 25.092250922509226%; top:46.74046740467405%;">
+               <div class="mc-button" title="Weather Station"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/secondary style="left: 23.25581395348837%; top:38.095238095238095%;">
+               <div class="mc-button" title="Secondary"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/art-room style="left: 77.18715393133998%; top:62.67995570321152%;">
+               <div class="mc-button" title="Art Room"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/upf style="left: 61.01882613510521%; top:16.943521594684384%;">
+               <div class="mc-button" title="UPF"></div>
+          </a> <a href=https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/entrance style="left: 19.047619047619047%; top:50.60908084163898%;">
+               <div class="mc-button" title="Entrance"></div>
+          </a> 
+     </div>
 </body>

@@ -1,10 +1,50 @@
-img: https://i.imgur.com/4xwJCFG.jpg
+img: https://i.imgur.com/cnpZuLH.jpg
 height: 609.0
 width: 893.0
 
 points:
   -
-    xp: 40%
-    yp: 40%
-    title: Test
-    href: https://sites.google.com/bedes.com.ar/science-fair-2020/
+    xp: 41.94341943419434%
+    yp: 22.632226322263221%
+    title: Saxon Hall
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/saxon-hall
+  -
+    xp: 29.64329643296433%
+    yp: 35.670356703567035%
+    title: Science Lab
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/science-lab
+  -
+    xp: 28.65928659286593%
+    yp: 60.63960639606396%
+    title: Kindergarten
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/kindergarten
+  -
+    xp: 67.15867158671587%
+    yp: 28.41328413284133%
+    title: Primary
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/primary
+  -
+    xp: 25.092250922509226%
+    yp: 46.74046740467405%
+    title: Weather Station
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/weather-station
+  -
+    xp: 23.25581395348837%
+    yp: 38.095238095238095%
+    title: Secondary
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/secondary
+  -
+    xp: 77.18715393133998%
+    yp: 62.67995570321152%
+    title: Art Room
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/art-room
+  - 
+    xp: 61.01882613510521%
+    yp: 16.943521594684384%
+    title: UPF
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/upf
+  -
+    xp: 19.047619047619047%
+    yp: 50.60908084163898%
+    title: Entrance
+    href: https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/entrance
