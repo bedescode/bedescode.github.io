@@ -50,7 +50,7 @@
      'use strict';
  
      
-     var viewer = new Marzipano.Viewer(document.getElementById('pano'));
+     var viewer = new Marzipano.Viewer(document.getElementById('pano'), { controls: { scrollZoom: false } });
 
      
      var source = Marzipano.ImageUrlSource.fromString("https:\/\/i.imgur.com\/g3Y9S7t.jpg");
@@ -107,6 +107,21 @@
           dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
      }
      
+     
+     const iframes = document.getElementsByTagName('iframe');
+     const dragCtl = viewer.controls().method('mouseViewDrag').instance;
+
+     dragCtl.addEventListener('active', () => {
+     for (const el of iframes) {
+     el.style.pointerEvents = 'none';
+     }
+     });
+
+     dragCtl.addEventListener('inactive', () => {
+     for (const el of iframes) {
+     el.style.pointerEvents = 'all';
+     }
+     });
 </script>
 
 
