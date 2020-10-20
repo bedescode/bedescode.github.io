@@ -57,14 +57,6 @@
             "student": "Class Activity 08/21 (sep. 18, 2020 10:32 p. m.).MOV"
          },
          {
-            "fileID": "1ObeSiFs5XS3yuNCzZncYhZT9Enmwr5Mv83ekHIgRsVA",
-            "student": "Joaquin DEVOTO - Class Activity 08/21"
-         },
-         {
-            "fileID": "1CBSYyEbYqR2wA7cRTeLlXiBuXjVlw5qrXTXF0kUfjAo",
-            "student": "Martina Chiossone - Class Activity 10/02"
-         },
-         {
             "fileID": "13VYON3PDSfWWM0Jtxofi8NBhHLHKHOwQ",
             "student": "Our HIstory UPF.jpeg"
          },

@@ -37,10 +37,6 @@
             "student": "IMG-20200829-WA0024.jpg"
          },
          {
-            "fileID": "1T2nRg1fmyawCLsBs2shlzDF_NpEkVZids2dXEx_JLNU",
-            "student": "Kinder_Science Fair"
-         },
-         {
             "fileID": "17yfa6fCcAZ8uWUMKFwN_N5iyStpx_MDX",
             "student": "LuliG science fair-KINDERGARTED PROJECT.MOV"
          },

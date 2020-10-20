@@ -49,10 +49,6 @@
             "student": "Julia Pi."
          },
          {
-            "fileID": "1GJTRlrbmR2XvUuj5cCt4Z-KXNCmCrQzhZxZ0IzRSeWc",
-            "student": "JULIA PIEDRA"
-         },
-         {
             "fileID": "1soq2SwBQptz1pgnbvI2YDJul0tgar-ZO",
             "student": "Máximo C."
          },

@@ -185,10 +185,6 @@
             "student": "Lara U."
          },
          {
-            "fileID": "0B-asociSEFNDfi0tcDJ1UXRxX2VrMzFXR0c0WjJka0I4bDAtVWp1REJuSWsxUTZWcjVIUnc",
-            "student": "LAST DATE TO HAND IN 4TH WORK CW FRIDAY 14/8"
-         },
-         {
             "fileID": "14zu4i6U7F2KZ02Q5uM1JtG1B6LDQpHaV",
             "student": "Leonardo Y."
          },
