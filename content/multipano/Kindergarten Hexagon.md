@@ -13,10 +13,6 @@
       "class": "",
       "multimedia": [
          {
-            "fileID": "1ayKNqJR8sRxXvhRWLmM4AjXP5QHV3E95",
-            "student": "1- Valeria Zanotti - Directora Kinder - Arte.mp4"
-         },
-         {
             "fileID": "1k0AvbyselJl0V9DUrImQ7BwmaMjN5WpJ",
             "student": "Alba"
          },

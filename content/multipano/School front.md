@@ -7,8 +7,8 @@
       "screensize": 0.75,
       "height": 480,
       "width": 720,
-      "yaw": 0,
-      "pitch": 0,
+      "yaw": 2.87,
+      "pitch": -0.6,
       "extratransforms": "",
       "class": "",
       "multimedia": [

@@ -7,7 +7,7 @@
       "screensize": 0.75,
       "height": 480,
       "width": 720,
-      "yaw": 0,
+      "yaw": 3.14,
       "pitch": 0,
       "extratransforms": "",
       "class": "",
@@ -33,12 +33,20 @@
             "student": "Practical Science - Tomás D. - Smoke Rings"
          },
          {
-            "fileID": "1EY3Jmt78om2aFzNo9PwlXBwCM5t3bqiz",
+            "fileID": "1ApbgU4tGm4g03zo5aws8Ut6zT9vrr0tF",
+            "student": "Robotics - Bruno S. - Intruder Alert"
+         },
+         {
+            "fileID": "1dQi71wP4PPyxL2wOV-S23t0JZHYzLrOU",
             "student": "Robotics - Hilario L. - Stoplights"
          },
          {
             "fileID": "1mgKQMfN0m7jGiNxnunGvGCdZIzxqTHom",
             "student": "Robotics - Juan Cruz G. R. - Distance Sensor"
+         },
+         {
+            "fileID": "1NmbZqgnHKghmbfcPxLvpCmApCX6FvIuZ",
+            "student": "Robotics - Manuel O. L. - Go To That Point"
          }
       ]
    }

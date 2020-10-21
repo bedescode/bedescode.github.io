@@ -39,8 +39,10 @@
      <button class="mc-button" data-student="Practical Science - Oli M." data-src="1Xa9NmUpoy_YdF6h-xn-n0Ie-udQ09JWV"></button>
      <button class="mc-button" data-student="Practical Science - Tomás D. - Eggs" data-src="1Vm8ceLwsaFo16YVdAduV61wicUG0niRK"></button>
      <button class="mc-button" data-student="Practical Science - Tomás D. - Smoke Rings" data-src="1ih03hoXiKb1aHbCCegj1xXOrmP4BK9Wr"></button>
-     <button class="mc-button" data-student="Robotics - Hilario L. - Stoplights" data-src="1EY3Jmt78om2aFzNo9PwlXBwCM5t3bqiz"></button>
+     <button class="mc-button" data-student="Robotics - Bruno S. - Intruder Alert" data-src="1ApbgU4tGm4g03zo5aws8Ut6zT9vrr0tF"></button>
+     <button class="mc-button" data-student="Robotics - Hilario L. - Stoplights" data-src="1dQi71wP4PPyxL2wOV-S23t0JZHYzLrOU"></button>
      <button class="mc-button" data-student="Robotics - Juan Cruz G. R. - Distance Sensor" data-src="1mgKQMfN0m7jGiNxnunGvGCdZIzxqTHom"></button>
+     <button class="mc-button" data-student="Robotics - Manuel O. L. - Go To That Point" data-src="1NmbZqgnHKghmbfcPxLvpCmApCX6FvIuZ"></button>
      
      <p id="notice">⬅Push!</p>
      </div>
@@ -62,7 +64,7 @@
 
      
      var limiter = Marzipano.RectilinearView.limit.traditional(2024, 120 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({yaw: 0 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
+     var view = new Marzipano.RectilinearView({yaw: 3.14 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
 
      
      var scene = viewer.createScene({
@@ -79,7 +81,7 @@
      var container = scene.hotspotContainer();
 
      
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0 , pitch: 0 },
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 3.14 , pitch: 0 },
      {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
 
      
