@@ -57,6 +57,9 @@ html, body {
   position: absolute;
   line-height: 5vw;
   margin-top: -2.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   top: 5vw;
   right: -3em;
+  border-radius: 2.5vw;
 }

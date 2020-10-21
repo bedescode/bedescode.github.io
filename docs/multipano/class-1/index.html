@@ -60,8 +60,8 @@
      var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
 
      
-     var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({yaw: 2.7 , pitch: 0 }, limiter);
+     var limiter = Marzipano.RectilinearView.limit.traditional(2024, 120 * Math.PI / 180);
+     var view = new Marzipano.RectilinearView({yaw: 2.7 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
 
      
      var scene = viewer.createScene({
