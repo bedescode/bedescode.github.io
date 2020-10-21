@@ -3,56 +3,47 @@
 <head>
      <style>
           body {
-               margin: 0;
-               width: 100%;
-          }
-
-          #container {
-               width: 100%;
-               padding-top: 100%;
-               position: relative;
-          }
-
-          img {
-               position: absolute;
-               top:0;
-               left: 0;
-               display: block;
-               width: 100%;
-          }
-
-          a {
-               position: absolute
-          }
-
-          a div {
-               z-index: 2;
-               width: 2vw;
-               height: 2vw;
-               margin: -1vw;
-               border-radius: 50%;
-               background-color: #d22d61 ;
-               box-shadow: inset -2px -4px #00000066, inset 2px 2px #FFF7;
+               margin: 0
           }
      </style>
+     <script src="..\js\imageMapResizer.min.js"></script>
 </head>
 
-{{if .Site.Params.debug}}
-<script>
-     document.addEventListener("click", clicker)
-     function clicker(event) {
-          let w = document.getElementById("container").offsetWidth
-          let s = `xp: ${100*event.clientX/w}\%\n    yp: ${100*event.clientY/w}\%\n    title: \n    href: a`
-          console.log(s)
-     }
-</script>
-{{end}}
-
 <body>
-     <div id="container">
-          <img src="{{.Site.Data.mapinfo.img}}">{{range .Site.Data.mapinfo.points}}
-          <a href={{.href}} style="left: {{.xp}}; top:{{.yp}};">
-               <div title="{{.title}}"></div>
-          </a>{{end}}
-     </div>
+     <img src="https://i.imgur.com/Pz44oXY.jpg" usemap="#image-map" style="width:100%">
+     <map name="image-map">
+          <area target="" alt="Welcome!" title="Welcome!"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/entrance"
+               coords="145,632,320,729" shape="rect">
+          <area target="" alt="Weather Station" title="Weather Station"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/weather-station"
+               coords="141,871,351,960" shape="rect">
+          <area target="" alt="Science Lab" title="Science Lab"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/science-lab"
+               coords="532,524,798,581" shape="rect">
+          <area target="" alt="Saxon Hall" title="Saxon Hall"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/saxon-hall"
+               coords="363,172,689,247" shape="rect">
+          <area target="" alt="Unidad de Producción Forestal" title="Unidad de Producción Forestal"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/upf"
+               coords="1014,223,1170,304" shape="rect">
+          <area target="" alt="Art Room" title="Art Room"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/art-room"
+               coords="894,879,1151,939" shape="rect">
+          <area target="" alt="Kindergarten" title="Kindergarten"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/kindergarten"
+               coords="507,939,823,1001" shape="rect">
+          <area target="" alt="Secondary" title="Secondary"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/secondary"
+               coords="84,496,361,554" shape="rect">
+          <area target="" alt="Primary" title="Primary"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/primary"
+               coords="1182,589,1438,674" shape="rect">
+          <area target="" alt="ICT Lab" title="ICT Lab"
+               href="https://sites.google.com/bedes.com.ar/science-fair-2020/navigate-our-stations/ict-lab"
+               coords="163,346,385,406" shape="rect">
+     </map>
+     <script> 
+          imageMapResize();
+     </script>
 </body>
