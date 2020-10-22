@@ -8,7 +8,7 @@
       "height": 480,
       "width": 720,
       "yaw": 0,
-      "pitch": 0,
+      "pitch": 1.57,
       "extratransforms": "",
       "class": "",
       "multimedia": [
