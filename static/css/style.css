@@ -49,6 +49,16 @@ html, body {
 }
 
 #notice {
+  top: 0.5vw;
+  right: -3em;
+}
+
+#drag { 
+  top: -6vw;
+  left: 250px;
+}
+
+.cartel {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: xx-large;
   font-weight: bold;
@@ -57,7 +67,5 @@ html, body {
   position: absolute;
   line-height: 3vw;
   padding: 1vw;
-  top: 0.5vw;
-  right: -3em;
   border-radius: 4.5vw;
 }
