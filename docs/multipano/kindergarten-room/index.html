@@ -32,19 +32,19 @@
 
 <div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
      <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/1SXTuadw0DS8sgd64H1JrxlsF4LnvYOCD/preview"></iframe>
-     <p id="student">1 - Jennifer Gei - Science in Kinder.mp4</p>
+     <p id="student">1 - Jennifer Gei - Science in Kinder</p>
      <div id="btn-group">  
-     <button class="mc-button" data-student="1 - Jennifer Gei - Science in Kinder.mp4" data-src="1SXTuadw0DS8sgd64H1JrxlsF4LnvYOCD"></button>
-     <button class="mc-button" data-student="drawing.jpg" data-src="1zpVXo6qbq3knRCgHR5SEW63ph_VQSOa5"></button>
-     <button class="mc-button" data-student="IMG_1533.jpg" data-src="1iTn-vcerfRkVauZDrqweBLpsvkUpoApI"></button>
-     <button class="mc-button" data-student="IMG_20200828_110358892.jpg" data-src="1-oiY_U5XwuvDaFp17A_9Bt_wK_BHdzXk"></button>
-     <button class="mc-button" data-student="IMG_20200828_110732567.jpg" data-src="1z3Ht31ThSMqvJT0GiYpSM5usqQCZQwiV"></button>
-     <button class="mc-button" data-student="IMG-20200829-WA0024.jpg" data-src="1UoCRsEvV05PXUy3-Ofg39uAHWx_sDZIn"></button>
-     <button class="mc-button" data-student="LuliG science fair-KINDERGARTED PROJECT.MOV" data-src="17yfa6fCcAZ8uWUMKFwN_N5iyStpx_MDX"></button>
-     <button class="mc-button" data-student="Mi película 26.mp4" data-src="1B28Ggk11RwrQKQDh0m-aG3bWULFAfYz6"></button>
-     <button class="mc-button" data-student="page-1-drawing.jpg" data-src="1ZsQIhLjC6eXgf8Ka-hsVn5jUVyMvXL4z"></button>
-     <button class="mc-button" data-student="page-2-drawing.jpg" data-src="1bNasCdnSmNvs78z_SE6iRkaut7aeFxl-"></button>
-     <button class="mc-button" data-student="VID-20200829-WA0023.mp4" data-src="1zqcaF2KF0o0IOzq4W2G7yolSJpfoom9Z"></button>
+     <button class="mc-button" data-student="1 - Jennifer Gei - Science in Kinder" data-src="1SXTuadw0DS8sgd64H1JrxlsF4LnvYOCD"></button>
+     <button class="mc-button" data-student="a video" data-src="1B28Ggk11RwrQKQDh0m-aG3bWULFAfYz6"></button>
+     <button class="mc-button" data-student="a video" data-src="1zqcaF2KF0o0IOzq4W2G7yolSJpfoom9Z"></button>
+     <button class="mc-button" data-student="a video Luli G." data-src="17yfa6fCcAZ8uWUMKFwN_N5iyStpx_MDX"></button>
+     <button class="mc-button" data-student="photo" data-src="1zpVXo6qbq3knRCgHR5SEW63ph_VQSOa5"></button>
+     <button class="mc-button" data-student="photo" data-src="1iTn-vcerfRkVauZDrqweBLpsvkUpoApI"></button>
+     <button class="mc-button" data-student="photo" data-src="1bNasCdnSmNvs78z_SE6iRkaut7aeFxl-"></button>
+     <button class="mc-button" data-student="photo" data-src="1ZsQIhLjC6eXgf8Ka-hsVn5jUVyMvXL4z"></button>
+     <button class="mc-button" data-student="photo" data-src="1-oiY_U5XwuvDaFp17A_9Bt_wK_BHdzXk"></button>
+     <button class="mc-button" data-student="photo" data-src="1UoCRsEvV05PXUy3-Ofg39uAHWx_sDZIn"></button>
+     <button class="mc-button" data-student="photo" data-src="1z3Ht31ThSMqvJT0GiYpSM5usqQCZQwiV"></button>
      
      <p id="notice">⬅Push!</p>
      </div>
@@ -66,7 +66,7 @@
 
      
      var limiter = Marzipano.RectilinearView.limit.traditional(2024, 120 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({yaw: 0 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
+     var view = new Marzipano.RectilinearView({yaw: 0 , pitch: -0.2 , fov: Math.PI/2.5 }, limiter);
 
      
      var scene = viewer.createScene({
@@ -83,7 +83,7 @@
      var container = scene.hotspotContainer();
 
      
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0 , pitch: 0 },
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0 , pitch: -0.2 },
      {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
 
      
