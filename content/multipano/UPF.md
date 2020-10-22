@@ -14,11 +14,11 @@
       "multimedia": [
          {
             "fileID": "1BKc9R24fuvRyo76PNsSz5U5l4NYRcDvB",
-            "student": "1- Marcos Prado - Veggie Garden Teacher.mp4"
+            "student": "1- Marcos Prado - Veggie Garden Teacher"
          },
          {
             "fileID": "1EPcQy6HIk9B2heQAfVSuKfu2Ier8sgFo",
-            "student": "3 - Building the UPF - 2019.mp4"
+            "student": "3 - Building the UPF - 2019"
          },
          {
             "fileID": "1Fx0-pcn9PnsBNOISdCHoG6jw9aMCuheI",
