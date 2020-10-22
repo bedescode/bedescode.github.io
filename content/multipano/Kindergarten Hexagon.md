@@ -37,12 +37,24 @@
             "student": "Delfi G."
          },
          {
+            "fileID": "1wP5unVMvynO0MqeTdrgztCdTUn-GsmGH",
+            "student": "Emilia"
+         },
+         {
             "fileID": "1sWsSDBKHw88vSRisZhBlSEaWA6oj4uhn",
             "student": "Federico"
          },
          {
             "fileID": "1e11z6HYjxe2c0rdd_ypR3rzwqL6RKOcT",
             "student": "Fran"
+         },
+         {
+            "fileID": "19uNIRo24uz20dxr1ea7T3meGvHAUSq6b",
+            "student": "Fran P."
+         },
+         {
+            "fileID": "1i4bQOp0yYLGtLIJ--JNNKkKRBx9TbM-p",
+            "student": "Fran.jpg"
          },
          {
             "fileID": "1NUiS6h5z6IPNFOT40dB6wU2BaJUT9owG",
@@ -59,6 +71,14 @@
          {
             "fileID": "1-G61Zt4ykLbNA5HM0kfA-2n9qkcH0yyR",
             "student": "Lorenzo"
+         },
+         {
+            "fileID": "1LdXdUhyc2-Q4pYuwSQxy0O9sWU3l9P2Y",
+            "student": "Malena"
+         },
+         {
+            "fileID": "1d3moBJ6MjIcrkyDrSBwKqZdd8pVvnaAJ",
+            "student": "Manu"
          },
          {
             "fileID": "1UNEkN0qhBHb4VodV0fIaq7JHIV3Of4dN",
