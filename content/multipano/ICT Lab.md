@@ -19,6 +19,18 @@
          {
             "fileID": "14fXtCPF4Fo-FgkEd5fnyMDWGLSLUELl2",
             "student": "\"See-Saw and Levers\" Catalina C. intro by Joaco C."
+         },
+         {
+            "fileID": "1XbzkZP84VCCZxv297UUZEYfjylBV5-r9",
+            "student": "Sound Experiment part 1 - Aylen A..mov"
+         },
+         {
+            "fileID": "1FVtgKeYfUHpP3y5GODHR6Xckby-eslQq",
+            "student": "Sound Experiment part 2 - Nicolás J..MOV"
+         },
+         {
+            "fileID": "1Av-0_Lp8Dddxn9VlXCFXSm6X1j1sXVTo",
+            "student": "Sound Experiment part 4 - Federico H..mp4"
          }
       ]
    }
