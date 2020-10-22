@@ -92,20 +92,6 @@
      btnGroup.addEventListener('click',updateSRC);
      
      
-      
-     var dbp = document.createElement("div")
-     dbp.style = "background-color: yellow; width: 50px; height: 50px; position: relative;"
-     var dbhotspot = container.createHotspot(dbp, { yaw: 0, pitch: 0 },
-     { perspective: { radius: 2000, extraTransforms: "",}});
-     var dbtext = document.createElement("p")
-     dbtext.style = "position: absolute; top: 0; left: 0; background-color: white;  font-size:x-large"
-     document.body.appendChild(dbtext)
-     setInterval(displayPosition,40)
-     function displayPosition() {
-          var num = viewer.view();
-          dbtext.innerHTML = "yaw:" + num.yaw().toFixed(2) + " - pitch:" + num.pitch().toFixed(2) ;
-          dbhotspot.setPosition({yaw:num.yaw(), pitch: num.pitch()});
-     }
      
 
      

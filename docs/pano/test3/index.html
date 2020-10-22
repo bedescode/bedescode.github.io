@@ -41,8 +41,6 @@
 
 
 
-<div id="debugpoint" style="background-color: yellow; width: 50px; height: 50px; position:relative"></div>
-
 
 <script>
   'use strict';
@@ -82,18 +80,6 @@
      extraTransforms: ""}});
   
   
-
-var h = container.createHotspot(document.getElementById('debugpoint'), { yaw: 0, pitch: 0 },
-    { perspective: { radius: 2000, 
-     extraTransforms: "",}});
-
-setInterval(displayPosition,30);
-
-function displayPosition() {
-  var num = viewer.view();
-  document.getElementById("debug").innerHTML = "yaw:" + num.yaw().toFixed(2) + " - pitch:" + num.pitch().toFixed(2) ;
-  h.setPosition({yaw:num.yaw(), pitch: num.pitch()});
-}
 
 </script>
 
