@@ -14,7 +14,7 @@
       "multimedia": [
          {
             "fileID": "1ozKHzJesguMn58W9Br9vUBTyGEyyWKBy",
-            "student": "01 - Science in Primary - Antonella Gaitan.mp4"
+            "student": "\"Science in Primary\" - Antonella Gaitan"
          },
          {
             "fileID": "18D-JwkhwucDEjuVmfn1uGurixZtazAUs",
@@ -75,10 +75,6 @@
          {
             "fileID": "12a8DZunmO4iqA9K5xzEXD8IJF2DdX5sl",
             "student": "Selene R."
-         },
-         {
-            "fileID": "138gjIkNJ2YwP1C4UjXeBnyGe2VTb3Wv7",
-            "student": "sofi rossi"
          }
       ]
    }

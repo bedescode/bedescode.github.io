@@ -7,14 +7,14 @@
       "screensize": 0.75,
       "height": 480,
       "width": 720,
-      "yaw": 0,
+      "yaw": 3.14,
       "pitch": 0,
       "extratransforms": "",
       "class": "",
       "multimedia": [
          {
             "fileID": "1JujTfTXXT7C0i-M_3eNnCVHcQ5216mjN",
-            "student": "01 - Science in Primary - Antonella Gaitan.mp4"
+            "student": "\"Science in Primary\" - Antonella Gaitan"
          },
          {
             "fileID": "1sLZ_IK9XeiLpKvOWSyg1k8LVHTl_3O-x",

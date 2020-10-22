@@ -14,15 +14,27 @@
       "multimedia": [
          {
             "fileID": "1sV2tA_UEf3YI5uqEKVQfZD3ohQ0Zr_2F",
-            "student": "1- Showing Weather Station to Kinder.mp4"
+            "student": "1- Showing Weather Station to Kinder"
          },
          {
             "fileID": "1a_Q3WJQCo1IjlvcAeDGLNkLAp2UbvFch",
-            "student": "Juana-Benito-Ex-Science-Captain.jpg"
+            "student": "Juana-Benito-Ex-Science-Captain"
+         },
+         {
+            "fileID": "114F1oF8EJ-erJffZgyRMNUvXsBA8eSEA",
+            "student": "Weather Station"
+         },
+         {
+            "fileID": "1N5DSvj8E125MZo3Igdvmp3W4QwEC_9GW",
+            "student": "Weather Station"
+         },
+         {
+            "fileID": "19cXT_g8VJiNwkymbqtUhZhO5tyuxfa4k",
+            "student": "Weather Station"
          },
          {
             "fileID": "1Z2sAs_AhaHxGjp_gtK7cHmbtF4aFARRB",
-            "student": "Weather Station #1.mp4"
+            "student": "Weather Station #1"
          },
          {
             "fileID": "1ybG5ynqDSZfP3dUGAYPFGuV2RFmJPVG1",
@@ -30,19 +42,7 @@
          },
          {
             "fileID": "1xMasp3fyL3J13HXJiVx7N-uRaCD4uIA6",
-            "student": "Weather Station Primary.jpeg"
-         },
-         {
-            "fileID": "19cXT_g8VJiNwkymbqtUhZhO5tyuxfa4k",
-            "student": "Weather Station!.jpeg"
-         },
-         {
-            "fileID": "114F1oF8EJ-erJffZgyRMNUvXsBA8eSEA",
-            "student": "Weather Station.jpg"
-         },
-         {
-            "fileID": "1N5DSvj8E125MZo3Igdvmp3W4QwEC_9GW",
-            "student": "Weather Station.jpg"
+            "student": "Weather Station Primary"
          }
       ]
    }

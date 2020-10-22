@@ -1,8 +1,8 @@
 {
-      "panoURL": "https://i.imgur.com/n3rvSgt.jpg",
+      "panoURL": "https://i.imgur.com/3tp9yO4.jpg",
       "type": "",
-      "folderURL": "https://drive.google.com/drive/folders/1Ie6nBhHTpblb2YtPzNg3O5cM1lA-Xxms?usp=sharing",
-      "title": "Saxon Hall 2",
+      "folderURL": "",
+      "title": "Park",
       "description": "",
       "screensize": 0.75,
       "height": 480,

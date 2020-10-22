@@ -32,9 +32,9 @@
 
 <div id="screen" style="background-color: #444; position: relative; width: 720px; height: 480px">
      <iframe id="content" width=100% height=100% src="https://drive.google.com/file/d/1JujTfTXXT7C0i-M_3eNnCVHcQ5216mjN/preview"></iframe>
-     <p id="student">01 - Science in Primary - Antonella Gaitan.mp4</p>
+     <p id="student">&#34;Science in Primary&#34; - Antonella Gaitan</p>
      <div id="btn-group">  
-     <button class="mc-button" data-student="01 - Science in Primary - Antonella Gaitan.mp4" data-src="1JujTfTXXT7C0i-M_3eNnCVHcQ5216mjN"></button>
+     <button class="mc-button" data-student="&#34;Science in Primary&#34; - Antonella Gaitan" data-src="1JujTfTXXT7C0i-M_3eNnCVHcQ5216mjN"></button>
      <button class="mc-button" data-student="Bauti Gozio.mp4" data-src="1sLZ_IK9XeiLpKvOWSyg1k8LVHTl_3O-x"></button>
      <button class="mc-button" data-student="Benja Silva Clemente.MOV" data-src="1Cvg7cc63balw4vZyYiFctS9nAnLEAcJe"></button>
      <button class="mc-button" data-student="Benja Silva Clemente.MOV" data-src="1i948DF63UApBxxA3oREkXun6VYNHXDqn"></button>
@@ -94,7 +94,7 @@
 
      
      var limiter = Marzipano.RectilinearView.limit.traditional(2024, 120 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({yaw: 0 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
+     var view = new Marzipano.RectilinearView({yaw: 3.14 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
 
      
      var scene = viewer.createScene({
@@ -111,7 +111,7 @@
      var container = scene.hotspotContainer();
 
      
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0 , pitch: 0 },
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 3.14 , pitch: 0 },
      {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
 
      
