@@ -1,7 +1,7 @@
 {
       "panoURL": "https://i.imgur.com/xXs1pH9.jpg",
       "type": "tornado",
-      "folderURL": "https://drive.google.com/drive/folders/1YJ0csgoF5qph-PjlmynPxitL1MqWmmlp?usp=sharing",
+      "folderURL": "https://drive.google.com/drive/u/0/folders/18zNxCSCe69areC25_xf2qsLdKMlcpG1j",
       "title": "Kindergarten Hexagon",
       "description": "",
       "screensize": 0.75,
@@ -13,75 +13,75 @@
       "class": "",
       "multimedia": [
          {
-            "fileID": "1k0AvbyselJl0V9DUrImQ7BwmaMjN5WpJ",
+            "fileID": "16i5QcVVsOLGYNqmd7wr2kp64awJVeVRl",
             "student": "Alba"
          },
          {
-            "fileID": "1dQcxD4V_-6VYSYsjWsKWdpLPwTs6ZWDI",
+            "fileID": "1xM62z-i-4KXmLjuOKMwM5pDNv0Gsruvv",
             "student": "Antonia"
          },
          {
-            "fileID": "1xh4vEqrB6CUJwu7H37yRLcNyGYuRXLlv",
+            "fileID": "1w4wnqFNpOOa2yIJNos6TpG7ZMFokTyD2",
             "student": "Clara"
          },
          {
-            "fileID": "1t0auQXmLkXpFrysAu5l_l_gVvXDEv-jC",
+            "fileID": "1yJy52EHb8mW0hB8J61k76nMM5Traqsi7",
             "student": "Dante"
          },
          {
-            "fileID": "1VSNZdczCZmMu7Da3jXMXa9Z4Y23O_Hcx",
+            "fileID": "1fpLxGdpLKj-sm-RK1d35MFz000gNYfFd",
             "student": "Delfi A."
          },
          {
-            "fileID": "1WKYlLlWTlrZ8WwhjjXmSvWHCgmgn7CHx",
+            "fileID": "1Ep6sUL7HG-Y9lXiWkUjj_3QbIuzQL4ny",
             "student": "Delfi G."
          },
          {
-            "fileID": "1C4W8TbhGifPpcUGR4aQPZYH8t_wQgGHa",
+            "fileID": "1sWsSDBKHw88vSRisZhBlSEaWA6oj4uhn",
             "student": "Federico"
          },
          {
-            "fileID": "1Jn3bFFd0M9VSHuK25TCZjNh4_Aa1kjv7",
+            "fileID": "1e11z6HYjxe2c0rdd_ypR3rzwqL6RKOcT",
             "student": "Fran"
          },
          {
-            "fileID": "1yaAeHBy7MeAtNMmyxroooEMzmLhuZ4FP",
+            "fileID": "1NUiS6h5z6IPNFOT40dB6wU2BaJUT9owG",
             "student": "Greta"
          },
          {
-            "fileID": "1MTwuyT023Yo18r8Lj6GreLaQC0t4YaHQ",
+            "fileID": "1t3rvPt_17-Rohurg54zCZvx6J60BwwTd",
             "student": "Lara"
          },
          {
-            "fileID": "1XC4w0lq6rZuChf2N8R7KX9DvRDgRzasB",
+            "fileID": "15KtITRoKgnw15i6cqXTK9jZPljTI0RQ0",
             "student": "León"
          },
          {
-            "fileID": "1srQh1x2lPn0ecJCaAy8mAbJfqFyuJRc0",
+            "fileID": "1-G61Zt4ykLbNA5HM0kfA-2n9qkcH0yyR",
             "student": "Lorenzo"
          },
          {
-            "fileID": "1QncRDzlcSa2A_koHqfV3y1TCQusr07da",
+            "fileID": "1UNEkN0qhBHb4VodV0fIaq7JHIV3Of4dN",
             "student": "Manuel"
          },
          {
-            "fileID": "1ib6WH5K8ZYquQP_UKgCWILa3q09mHREL",
+            "fileID": "1lTYE4dr2sqY23FyMzkLZWDF3Pw7oyw9K",
             "student": "Mora"
          },
          {
-            "fileID": "1_d-wifWO0M8vDi7J18I0nxPuYfo0FBhu",
+            "fileID": "10VhDmBb813TyLDOk55vn0sk5L6SNiy2W",
             "student": "Nahuel"
          },
          {
-            "fileID": "1s_HGNe-tWwV-J5QPbzeKbgBvZ2neE-O8",
+            "fileID": "1TMSx2FeKzgAs5UyQQPUcjpctk8p-lNqg",
             "student": "Thomy"
          },
          {
-            "fileID": "1WLpTfdTlD8bqK2PIHaYx20_j2M23MopZ",
+            "fileID": "1ReHjYPvgc9fqJq08kvAR3sElwTPIl33J",
             "student": "Timoteo"
          },
          {
-            "fileID": "1jGkjDmB0bDQAiMTT-LLstyqpamd5Ue1c",
+            "fileID": "1yg9Dio7_ple2LE_AdGwjl5AC50XTJICi",
             "student": "Valentina"
          }
       ]

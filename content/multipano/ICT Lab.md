@@ -7,7 +7,7 @@
       "screensize": 0.75,
       "height": 480,
       "width": 720,
-      "yaw": 0,
+      "yaw": -0.87,
       "pitch": 0,
       "extratransforms": "",
       "class": "",
@@ -18,7 +18,7 @@
          },
          {
             "fileID": "14fXtCPF4Fo-FgkEd5fnyMDWGLSLUELl2",
-            "student": "\"See-Saw and Levers\" Catalina C. intro by Joaco C.webm"
+            "student": "\"See-Saw and Levers\" Catalina C. intro by Joaco C."
          }
       ]
    }

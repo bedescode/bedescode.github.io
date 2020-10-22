@@ -35,7 +35,7 @@
      <p id="student">&#34;Action and Reaction&#34;, Lucía C. - Victoria V. - Manuel O. L.- Candela L.</p>
      <div id="btn-group">  
      <button class="mc-button" data-student="&#34;Action and Reaction&#34;, Lucía C. - Victoria V. - Manuel O. L.- Candela L." data-src="19-WOO6fKcPorAphauSRrK0gc9xKL94Tf"></button>
-     <button class="mc-button" data-student="&#34;See-Saw and Levers&#34; Catalina C. intro by Joaco C.webm" data-src="14fXtCPF4Fo-FgkEd5fnyMDWGLSLUELl2"></button>
+     <button class="mc-button" data-student="&#34;See-Saw and Levers&#34; Catalina C. intro by Joaco C." data-src="14fXtCPF4Fo-FgkEd5fnyMDWGLSLUELl2"></button>
      
      <p id="notice">⬅Push!</p>
      </div>
@@ -57,7 +57,7 @@
 
      
      var limiter = Marzipano.RectilinearView.limit.traditional(2024, 120 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({yaw: 0 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
+     var view = new Marzipano.RectilinearView({yaw: -0.87 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
 
      
      var scene = viewer.createScene({
@@ -74,7 +74,7 @@
      var container = scene.hotspotContainer();
 
      
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0 , pitch: 0 },
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: -0.87 , pitch: 0 },
      {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
 
      

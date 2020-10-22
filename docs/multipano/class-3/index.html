@@ -66,7 +66,7 @@
 
      
      var limiter = Marzipano.RectilinearView.limit.traditional(2024, 120 * Math.PI / 180);
-     var view = new Marzipano.RectilinearView({yaw: 0 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
+     var view = new Marzipano.RectilinearView({yaw: 3.14 , pitch: 0 , fov: Math.PI/2.5 }, limiter);
 
      
      var scene = viewer.createScene({
@@ -83,7 +83,7 @@
      var container = scene.hotspotContainer();
 
      
-     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 0 , pitch: 0 },
+     var screen = container.createHotspot(document.getElementById("screen"), {yaw: 3.14 , pitch: 0 },
      {perspective: {radius:  480 / 0.75 , extraTransforms: "",}});
 
      
