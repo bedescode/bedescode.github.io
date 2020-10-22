@@ -31,10 +31,6 @@
          {
             "fileID": "1U0rjAhBLrw_SBXsDC6mcQEaTYV5odzQL",
             "student": "Lucila C. P."
-         },
-         {
-            "fileID": "1t0jOhvg7wSlAsjr_49pznrI2DLVbkpNF",
-            "student": "Moira Graham"
          }
       ]
    }

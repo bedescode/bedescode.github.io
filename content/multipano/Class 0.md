@@ -1,7 +1,7 @@
 {
       "panoURL": "https://i.imgur.com/GnDNWXB.jpg",
       "type": "",
-      "folderURL": "https://drive.google.com/drive/folders/1t1zUsoHEMdjN9FRmfiYGr9SJ2EAID8Az",
+      "folderURL": "https://drive.google.com/drive/folders/1qgmXoOMavu0AvO6PnQCJZycKem4hA9Lv",
       "title": "Class 0",
       "description": "",
       "screensize": 0.75,
@@ -17,39 +17,39 @@
             "student": "1- Paz Rodriguez Wilkinson - Biology"
          },
          {
-            "fileID": "1_i8ENbEg2E0ZVpXxUnoDaOmRC6hyNx7Q",
+            "fileID": "1nFpnhYd_U44sIhWwKn7pZ2OSjcf1-mLO",
             "student": "Azul B."
          },
          {
-            "fileID": "1MiRWgkRpP6eNOToG77pOTCR5Zmue_cNV",
+            "fileID": "1bUrQPKsoiqpPEuMUEkC31g4-0s-9DBwk",
             "student": "Bautista S. C."
          },
          {
-            "fileID": "1j4XPCSMNO7eIWa9YM9iQksEIYD9J42ar",
+            "fileID": "1Gfn9XqfGZgiePpdMuczGtzjsM4-OBaH8",
             "student": "Goran U."
          },
          {
-            "fileID": "1-jEh1W4ETGojvYlr35rtpHDDoOYTdzMh",
+            "fileID": "1qX8tbX69cTzM81xeSvhhQFPvuLdS1HNu",
             "student": "Lucas P."
          },
          {
-            "fileID": "1xDGSF2ecQVtQ7qx1DUf0_bmYNyIIF7gk",
+            "fileID": "1gQShO-9G6yy93mOVwZbtyH0JG4itx4cB",
             "student": "Lucía A."
          },
          {
-            "fileID": "1uMDl4rE31z9AXCWW3W65kMCXcqFhHjzL",
+            "fileID": "1tJZaVygnYGEoiH7QnEaNqx51zz3BIBpr",
             "student": "Martina A. B."
          },
          {
-            "fileID": "1GhXs1R4xSsLB7rh9B1GOiZLyku-LdlOT",
+            "fileID": "1nbEYgoHUjxicKGmOM2Z-c_ikQwhmxwy8",
             "student": "Mateo G."
          },
          {
-            "fileID": "1jDEP7WuG0hEBV1mRZkErWcpdjHYu8eLJ",
+            "fileID": "1NOqjOZ_RSEa_NuJr5Bl8OgEwKLtLsj_Y",
             "student": "Mia T."
          },
          {
-            "fileID": "15cEZjay0NGeiILNhgGM-GbYZFhYE084y",
+            "fileID": "18tUYU5DqVcd2Xy23HyzISSPCS-jjxq1u",
             "student": "Tiziana M."
          }
       ]
