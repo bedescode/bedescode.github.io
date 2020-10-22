@@ -55,9 +55,9 @@ html, body {
   background-color: rgba(0.5, 0.5, 0.5, 0.5);
   color: yellow;
   position: absolute;
-  line-height: 6vw;
+  line-height: 3vw;
   padding: 1vw;
-  top: -1vw;
+  top: 0.5vw;
   right: -3em;
   border-radius: 4.5vw;
 }
