@@ -53,10 +53,6 @@
             "student": "Fran P."
          },
          {
-            "fileID": "1i4bQOp0yYLGtLIJ--JNNKkKRBx9TbM-p",
-            "student": "Fran.jpg"
-         },
-         {
             "fileID": "1NUiS6h5z6IPNFOT40dB6wU2BaJUT9owG",
             "student": "Greta"
          },
